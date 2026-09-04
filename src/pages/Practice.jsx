@@ -4,6 +4,7 @@ import questionsData from '../data/questions.json';
 import QuestionCard from '../components/QuestionCard';
 import ConceptVideoModal from '../components/ConceptVideoModal';
 import FormulaCheatSheet from '../components/FormulaCheatSheet';
+import TopicVideoPlayer from '../components/TopicVideoPlayer';
 import { recordAttempt } from '../services/storageService';
 
 export default function Practice() {
@@ -165,10 +166,15 @@ export default function Practice() {
         </div>
       </div>
 
+      {/* Topic-Oriented YouTube Video Tutorial Player Embedded directly on Practice Page */}
+      <TopicVideoPlayer
+        subtopic={selectedSubtopic !== 'all' ? selectedSubtopic : (currentQ?.subtopic || 'percentages')}
+      />
+
       {/* Pre-Question Topic Formula Cheat Sheet */}
       <FormulaCheatSheet
         subtopic={selectedSubtopic !== 'all' ? selectedSubtopic : (currentQ?.subtopic || 'percentages')}
-        defaultOpen={true}
+        defaultOpen={false}
       />
 
       {/* Content Layout: Question Picker Drawer + Question Card */}
