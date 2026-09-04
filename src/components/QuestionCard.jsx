@@ -177,12 +177,16 @@ export default function QuestionCard({
             </button>
 
             {showExplanation && (
-              <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800 text-slate-300 text-sm leading-relaxed space-y-2 font-sans">
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-emerald-400 uppercase tracking-wider">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  Correct Answer: {question.correctAnswer}
+              <div className="p-5 rounded-2xl bg-slate-950/90 border border-brand-500/30 text-slate-200 text-sm leading-relaxed space-y-3 font-sans shadow-xl">
+                <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+                  <div className="flex items-center gap-2 text-xs font-bold text-emerald-400 uppercase tracking-wider font-mono">
+                    <Sparkles className="w-4 h-4 text-emerald-400" />
+                    Correct Answer: <span className="px-2 py-0.5 rounded bg-emerald-950 border border-emerald-700/50 text-white font-mono">{question.correctAnswer}</span>
+                  </div>
                 </div>
-                <p className="pt-1 text-slate-300">{question.explanation}</p>
+                <div className="whitespace-pre-line text-xs sm:text-sm text-slate-300 font-mono leading-relaxed pt-1">
+                  {question.explanation}
+                </div>
               </div>
             )}
 

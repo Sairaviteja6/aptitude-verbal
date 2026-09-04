@@ -1,321 +1,386 @@
 [
   {
-    "id": "quant-pct-01",
+    "id": "q_perc_01",
     "topic": "aptitude",
     "subtopic": "percentages",
     "difficulty": "easy",
     "orientation": "Conceptual",
-    "question": "What is 15% of 240?",
-    "options": ["32", "36", "40", "42"],
-    "correctAnswer": "36",
-    "explanation": "Formula: Part = (Percentage / 100) × Whole. 15% of 240 = (15 / 100) × 240 = 0.15 × 240 = 36."
-  },
-  {
-    "id": "quant-pct-02",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "If 45% of a number is 135, what is the number?",
-    "options": ["250", "280", "300", "350"],
-    "correctAnswer": "300",
-    "explanation": "Formula: 0.45 × X = 135 => X = 135 / 0.45 = 300."
-  },
-  {
-    "id": "quant-pct-03",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "If the price of sugar increases by 25%, by what percentage must a household decrease its consumption so that the expenditure on sugar remains the same?",
-    "options": ["15%", "20%", "25%", "30%"],
+    "question": "If the price of sugar increases by 25%, by what percentage must a household reduce its sugar consumption so that the total monthly expenditure remains unchanged?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
     "correctAnswer": "20%",
-    "explanation": "Shortcut Formula: Reduction % = [r / (100 + r)] × 100%. Here r = 25%. Reduction = [25 / 125] × 100% = 20%."
+    "explanation": "📌 GIVEN DATA:\nPrice increase (r) = 25%.\nGoal: Keep total expenditure constant.\n\n📐 FORMULA APPLIED:\nConsumption Reduction % = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Substitute r = 25 into the formula.\nStep 2: Reduction % = [ 25 / (100 + 25) ] × 100%\nStep 3: Reduction % = (25 / 125) × 100% = (1 / 5) × 100% = 20%.\n\n⚡ PRO-TIP / SPEED TRICK:\nIf price increases by 1/4 (25%), consumption must decrease by 1/(4 + 1) = 1/5 = 20%."
   },
   {
-    "id": "quant-pct-04",
+    "id": "q_perc_02",
     "topic": "aptitude",
     "subtopic": "percentages",
     "difficulty": "medium",
     "orientation": "Formula & Application",
-    "question": "A's salary is 20% lower than B's salary. By how much percent is B's salary higher than A's salary?",
-    "options": ["20%", "22.5%", "25%", "30%"],
-    "correctAnswer": "25%",
-    "explanation": "Let B's salary = 100. A's salary = 80. Difference = 20. Percent higher than A = (20 / 80) × 100 = 25%."
+    "question": "A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
+    "options": [
+      "36%",
+      "44%",
+      "64%",
+      "54%"
+    ],
+    "correctAnswer": "64%",
+    "explanation": "📌 GIVEN DATA:\nTrue Multiplier = 5/3\nWrong Multiplier = 3/5\n\n📐 FORMULA APPLIED:\nPercentage Error = [ |True Value - Erroneous Value| / True Value ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let the original number be LCM(3, 5) = 15.\nStep 2: True Value = 15 × (5/3) = 25.\nStep 3: Erroneous Value = 15 × (3/5) = 9.\nStep 4: Error Amount = 25 - 9 = 16.\nStep 5: Percentage Error = (16 / 25) × 100% = 64%.\n\n⚡ PRO-TIP / SPEED TRICK:\nError % = [ (5² - 3²) / 5² ] × 100% = [ (25 - 9) / 25 ] × 100% = 64%."
   },
   {
-    "id": "quant-pct-05",
+    "id": "q_perc_03",
     "topic": "aptitude",
     "subtopic": "percentages",
     "difficulty": "hard",
     "orientation": "GATE / Placement PYQ",
-    "question": "A student scored 30% marks and failed by 15 marks. Another student scored 40% marks and got 35 marks more than the passing mark. What are the maximum marks?",
-    "options": ["400", "500", "600", "450"],
-    "correctAnswer": "500",
-    "explanation": "Difference in percentage = 40% - 30% = 10%. Difference in total marks = 35 - (-15) = 50 marks. If 10% = 50 marks, then 100% (Maximum marks) = 500."
-  },
-  {
-    "id": "quant-pct-06",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "hard",
-    "orientation": "GATE / Placement PYQ",
-    "question": "In an election between two candidates, 10% of voters did not cast their vote and 60 votes were declared invalid. The winner got 47% of total enrolled votes and won by 308 votes. Find the total number of voters.",
-    "options": ["5000", "6200", "5500", "6000"],
+    "question": "In an election between two candidates, 10% of voters did not cast their vote and 60 votes were declared invalid. The winning candidate secured 47% of the total enrolled voters and won by 308 votes. What is the total number of enrolled voters?",
+    "options": [
+      "5600",
+      "6200",
+      "6000",
+      "6400"
+    ],
     "correctAnswer": "6200",
-    "explanation": "Let total voters = X. Votes cast = 0.90X. Valid votes = 0.90X - 60. Winner = 0.47X. Loser = (0.90X - 60) - 0.47X = 0.43X - 60. Winner - Loser = 0.47X - (0.43X - 60) = 308 => 0.04X + 60 = 308 => 0.04X = 248 => X = 6200."
+    "explanation": "📌 GIVEN DATA:\nUncast votes = 10% of Total Enrolled (T)\nInvalid votes = 60\nWinner votes (W) = 47% of Total Enrolled (T) = 0.47T\nWinner Margin = 308 votes over Loser (L)\n\n📐 FORMULA APPLIED:\nValid Votes = Cast Votes - Invalid Votes = (W + L)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Enrolled = 100% (or T).\nStep 2: Cast Votes = 90% of T = 0.90T.\nStep 3: Total Valid Votes = 0.90T - 60.\nStep 4: Winner (W) gets 0.47T. Loser (L) gets (Valid Votes - W) = (0.90T - 60) - 0.47T = 0.43T - 60.\nStep 5: Winner Margin W - L = 0.47T - (0.43T - 60) = 308.\nStep 6: 0.04T + 60 = 308  =>  0.04T = 248  =>  T = 248 / 0.04 = 6200.\n\n⚡ PRO-TIP / SPEED TRICK:\nNet Margin % = 47% - (90% - 47%) = 4% of Total. 4% of Total + 60 = 308  => 4% = 248  => 100% = 6200."
   },
   {
-    "id": "quant-pl-01",
+    "id": "q_perc_04",
+    "topic": "aptitude",
+    "subtopic": "percentages",
+    "difficulty": "easy",
+    "orientation": "Conceptual",
+    "question": "If A's salary is 20% more than B's salary, then by what percentage is B's salary less than A's salary?",
+    "options": [
+      "16.67%",
+      "20%",
+      "25%",
+      "15%"
+    ],
+    "correctAnswer": "16.67%",
+    "explanation": "📌 GIVEN DATA:\nA's salary = B's salary + 20% of B's salary.\n\n📐 FORMULA APPLIED:\nPercentage Less = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let B's salary = $100.\nStep 2: A's salary = $120.\nStep 3: Difference = $20.\nStep 4: B is less than A by (20 / 120) × 100% = 1/6 × 100% = 16.67%.\n\n⚡ PRO-TIP / SPEED TRICK:\n20% increase corresponds to 1/5. B is less than A by 1/(5 + 1) = 1/6 = 16.67%."
+  },
+  {
+    "id": "q_perc_05",
+    "topic": "aptitude",
+    "subtopic": "percentages",
+    "difficulty": "medium",
+    "orientation": "Shortcut Trick",
+    "question": "The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the present population is 99,000, what was the population 2 years ago?",
+    "options": [
+      "1,00,000",
+      "99,500",
+      "1,02,000",
+      "98,000"
+    ],
+    "correctAnswer": "1,00,000",
+    "explanation": "📌 GIVEN DATA:\nYear 1 Change = +10%\nYear 2 Change = -10%\nPresent Population = 99,000\n\n📐 FORMULA APPLIED:\nNet % Change = A + B + (A × B / 100) = +10 - 10 + (10 × -10 / 100) = -1%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Overall change over 2 years is a net decrease of 1%.\nStep 2: Present Population = 99% of Initial Population (P).\nStep 3: 0.99 × P = 99,000  =>  P = 99,000 / 0.99 = 1,00,000.\n\n⚡ PRO-TIP / SPEED TRICK:\nSame % increase & decrease (x%) always results in net loss of (x/10)² % = (10/10)² = 1% loss. So 99% = 99,000 => 100% = 1,00,000."
+  },
+  {
+    "id": "q_pl_01",
     "topic": "aptitude",
     "subtopic": "profit-and-loss",
     "difficulty": "easy",
     "orientation": "Conceptual",
-    "question": "A trader buys an item for $80 and sells it for $100. What is the percentage profit?",
-    "options": ["20%", "25%", "15%", "30%"],
+    "question": "A trader sells an article for $480 and incurs a loss of 20%. At what selling price should he sell it to gain a 20% profit?",
+    "options": [
+      "$600",
+      "$720",
+      "$640",
+      "$800"
+    ],
+    "correctAnswer": "$720",
+    "explanation": "📌 GIVEN DATA:\nFirst SP = $480\nLoss = 20% (so First SP represents 80% of CP)\nTarget Profit = 20% (so Target SP must represent 120% of CP)\n\n📐 FORMULA APPLIED:\nTarget SP = First SP × (Target % / Given %)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Find Cost Price (CP): 80% of CP = $480  =>  CP = 480 / 0.80 = $600.\nStep 2: Calculate Target SP for 20% profit: SP = 600 × 1.20 = $720.\n\n⚡ PRO-TIP / SPEED TRICK:\nTarget SP = 480 × (120 / 80) = 480 × 1.5 = $720."
+  },
+  {
+    "id": "q_pl_02",
+    "topic": "aptitude",
+    "subtopic": "profit-and-loss",
+    "difficulty": "medium",
+    "orientation": "Shortcut Trick",
+    "question": "A dishonest merchant uses a faulty weight of 800 grams instead of 1 kilogram while buying and selling at cost price. What is his profit percentage?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "30%"
+    ],
     "correctAnswer": "25%",
-    "explanation": "Profit = SP - CP = 100 - 80 = 20. Profit % = (Profit / CP) × 100 = (20 / 80) × 100 = 25%."
+    "explanation": "📌 GIVEN DATA:\nClaimed Weight (True Value) = 1000g\nActual Weight Used (False Value) = 800g\nSelling Price = Cost Price per kg\n\n📐 FORMULA APPLIED:\nDishonest Dealer Profit % = [ Error / False Weight ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Error = 1000g - 800g = 200g.\nStep 2: Actual cost incurred by merchant is for 800g.\nStep 3: Profit % = (200 / 800) × 100% = 1/4 × 100% = 25%.\n\n⚡ PRO-TIP / SPEED TRICK:\nProfit % = [ (1000 - 800) / 800 ] × 100% = 200 / 800 = 25%."
   },
   {
-    "id": "quant-pl-02",
-    "topic": "aptitude",
-    "subtopic": "profit-and-loss",
-    "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "An article bought for $250 is sold at a loss of 12%. Find the selling price.",
-    "options": ["$210", "$220", "$230", "$240"],
-    "correctAnswer": "$220",
-    "explanation": "Formula: SP = CP × (100 - Loss %) / 100 = 250 × (88 / 100) = $220."
-  },
-  {
-    "id": "quant-pl-03",
-    "topic": "aptitude",
-    "subtopic": "profit-and-loss",
-    "difficulty": "medium",
-    "orientation": "Conceptual",
-    "question": "By selling an article for $720, a shopkeeper incurs a loss of 10%. At what price should he sell it to gain 20%?",
-    "options": ["$840", "$960", "$900", "$1000"],
-    "correctAnswer": "$960",
-    "explanation": "Selling price at 10% loss = 90% of Cost Price = $720 => Cost Price = 720 / 0.90 = $800. For 20% gain, SP = 1.20 × 800 = $960."
-  },
-  {
-    "id": "quant-pl-04",
+    "id": "q_pl_03",
     "topic": "aptitude",
     "subtopic": "profit-and-loss",
     "difficulty": "hard",
-    "orientation": "Shortcut Trick",
-    "question": "A dishonest dealer professes to sell his goods at cost price, but uses a weight of 900 grams for 1 kg. What is his real gain percentage?",
-    "options": ["10%", "11.11%", "12.5%", "15%"],
-    "correctAnswer": "11.11%",
-    "explanation": "Shortcut Formula: Gain % = [Error / (True Value - Error)] × 100% = [100 g / 900 g] × 100% = 100/9% = 11.11%."
+    "orientation": "GATE / Placement PYQ",
+    "question": "The cost price of two watches is the same. One watch is sold at a profit of 15% and the other at a loss of 15%. What is the net overall profit or loss percentage on the entire transaction?",
+    "options": [
+      "2.25% loss",
+      "No profit, no loss (0%)",
+      "2.25% profit",
+      "1.5% loss"
+    ],
+    "correctAnswer": "No profit, no loss (0%)",
+    "explanation": "📌 GIVEN DATA:\nCost Price CP1 = Cost Price CP2 = C.\nProfit on Watch 1 = +15%\nLoss on Watch 2 = -15%\n\n📐 FORMULA APPLIED:\nNet Profit/Loss = Total SP - Total CP\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Cost Price = C + C = 2C.\nStep 2: SP1 = 1.15C, SP2 = 0.85C.\nStep 3: Total Selling Price = 1.15C + 0.85C = 2C.\nStep 4: Total SP (2C) = Total CP (2C) => Net Profit/Loss = 0%.\n\n⚡ PRO-TIP / WARNING GOTCHA:\nWhen CP is same, net result is ALWAYS 0%. (The x²/100 % loss formula applies ONLY when SP is same, NOT CP!)."
   },
   {
-    "id": "quant-rp-01",
-    "topic": "aptitude",
-    "subtopic": "ratio-and-proportion",
-    "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "If A:B = 2:3 and B:C = 4:5, find the combined ratio A:B:C.",
-    "options": ["8:12:15", "6:9:15", "8:10:15", "2:4:5"],
-    "correctAnswer": "8:12:15",
-    "explanation": "Make B common by finding LCM of 3 and 4 (which is 12). A:B = 8:12, B:C = 12:15 => A:B:C = 8:12:15."
-  },
-  {
-    "id": "quant-rp-02",
-    "topic": "aptitude",
-    "subtopic": "ratio-and-proportion",
-    "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. What is the smaller number?",
-    "options": ["27", "33", "45", "55"],
-    "correctAnswer": "33",
-    "explanation": "Let numbers be 3x and 5x. (3x - 9)/(5x - 9) = 12/23. 23(3x - 9) = 12(5x - 9) => 69x - 207 = 60x - 108 => 9x = 99 => x = 11. Smaller number = 3 × 11 = 33."
-  },
-  {
-    "id": "quant-tw-01",
+    "id": "q_tw_01",
     "topic": "aptitude",
     "subtopic": "time-and-work",
     "difficulty": "easy",
     "orientation": "Conceptual",
-    "question": "A can finish a task in 10 days. What fraction of the task does A finish in 3 days?",
-    "options": ["1/3", "3/10", "3/5", "1/10"],
-    "correctAnswer": "3/10",
-    "explanation": "1 day work = 1/10. Work done in 3 days = 3 × (1/10) = 3/10."
+    "question": "A can complete a task in 12 days, while B can complete the same task in 24 days. Working together, in how many days can they complete the work?",
+    "options": [
+      "6 days",
+      "8 days",
+      "10 days",
+      "9 days"
+    ],
+    "correctAnswer": "8 days",
+    "explanation": "📌 GIVEN DATA:\nA's time = 12 days\nB's time = 24 days\n\n📐 FORMULA APPLIED:\nCombined Time = (A × B) / (A + B)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Work = LCM(12, 24) = 24 units.\nStep 2: A's efficiency = 24 / 12 = 2 units/day.\nStep 3: B's efficiency = 24 / 24 = 1 unit/day.\nStep 4: Combined efficiency = 2 + 1 = 3 units/day.\nStep 5: Time taken = 24 / 3 = 8 days.\n\n⚡ PRO-TIP / SPEED TRICK:\n(12 × 24) / (12 + 24) = 288 / 36 = 8 days."
   },
   {
-    "id": "quant-tw-02",
+    "id": "q_tw_02",
     "topic": "aptitude",
     "subtopic": "time-and-work",
     "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "A can complete a task in 12 days, and B can complete it in 18 days. If they work together, how many days will they take to complete the work?",
-    "options": ["6.2 days", "7.2 days", "8 days", "9 days"],
-    "correctAnswer": "7.2 days",
-    "explanation": "Shortcut Formula: Time together = (A × B) / (A + B) = (12 × 18) / (12 + 18) = 216 / 30 = 7.2 days."
+    "orientation": "Formula & Application",
+    "question": "12 men can complete a project in 18 days. How many men working at the same rate are required to complete the project in 12 days?",
+    "options": [
+      "16 men",
+      "18 men",
+      "20 men",
+      "24 men"
+    ],
+    "correctAnswer": "18 men",
+    "explanation": "📌 GIVEN DATA:\nM1 = 12 men, D1 = 18 days\nD2 = 12 days, Find M2.\n\n📐 FORMULA APPLIED:\nChain Rule: M1 × D1 = M2 × D2\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Work units = 12 × 18 = 216 man-days.\nStep 2: M2 × 12 = 216.\nStep 3: M2 = 216 / 12 = 18 men.\n\n⚡ PRO-TIP / SPEED TRICK:\nDays reduced from 18 to 12 (ratio 3:2), so Men must increase in ratio 2:3 => 12 × (3/2) = 18 men."
   },
   {
-    "id": "quant-tw-03",
+    "id": "q_tw_03",
     "topic": "aptitude",
     "subtopic": "time-and-work",
     "difficulty": "hard",
     "orientation": "GATE / Placement PYQ",
-    "question": "A and B can do a work in 12 days, B and C in 15 days, C and A in 20 days. How many days will A alone take to finish the work?",
-    "options": ["20 days", "30 days", "40 days", "60 days"],
-    "correctAnswer": "30 days",
-    "explanation": "Combined efficiency: 2(A+B+C) = 1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5 => A+B+C = 1/10 per day. A's efficiency = (A+B+C) - (B+C) = 1/10 - 1/15 = 1/30. So A alone takes 30 days."
+    "question": "A is twice as efficient as B. If together they can finish a piece of work in 14 days, in how many days can A alone finish the work?",
+    "options": [
+      "21 days",
+      "28 days",
+      "42 days",
+      "18 days"
+    ],
+    "correctAnswer": "21 days",
+    "explanation": "📌 GIVEN DATA:\nEfficiency ratio A : B = 2 : 1\nTogether time = 14 days\n\n📐 FORMULA APPLIED:\nWork = Total Efficiency × Combined Time\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let B's daily work = 1 unit/day => A's daily work = 2 units/day.\nStep 2: Combined daily work = 2 + 1 = 3 units/day.\nStep 3: Total Work = 3 units/day × 14 days = 42 units.\nStep 4: Time taken by A alone = Total Work / A's efficiency = 42 / 2 = 21 days.\n\n⚡ PRO-TIP / SPEED TRICK:\nA's share of efficiency is 2/3 of total. Time taken by A = Combined Time × (Total Ratio / A Ratio) = 14 × (3/2) = 21 days."
   },
   {
-    "id": "quant-sd-01",
+    "id": "q_std_01",
     "topic": "aptitude",
     "subtopic": "speed-and-distance",
     "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "A car travels at 54 km/h. Convert this speed into m/s.",
-    "options": ["12 m/s", "15 m/s", "18 m/s", "20 m/s"],
-    "correctAnswer": "15 m/s",
-    "explanation": "Formula: Multiply by 5/18. 54 × (5/18) = 15 m/s."
+    "orientation": "Conceptual",
+    "question": "A train traveling at a constant speed of 72 km/h crosses a pole in 15 seconds. What is the length of the train?",
+    "options": [
+      "200 meters",
+      "250 meters",
+      "300 meters",
+      "350 meters"
+    ],
+    "correctAnswer": "300 meters",
+    "explanation": "📌 GIVEN DATA:\nSpeed = 72 km/h\nTime = 15 seconds\n\n📐 FORMULA APPLIED:\n1 km/h = 5/18 m/s\nDistance (Train Length) = Speed (m/s) × Time (seconds)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Convert speed to m/s: 72 × (5 / 18) = 20 m/s.\nStep 2: Calculate distance: Distance = 20 m/s × 15 s = 300 meters.\n\n⚡ PRO-TIP / SPEED TRICK:\n72 is 4 × 18 km/h. Since 18 km/h = 5 m/s, 72 km/h = 4 × 5 = 20 m/s. Length = 20 × 15 = 300m."
   },
   {
-    "id": "quant-sd-02",
+    "id": "q_std_02",
     "topic": "aptitude",
     "subtopic": "speed-and-distance",
     "difficulty": "medium",
     "orientation": "Formula & Application",
-    "question": "A train 150 meters long crosses a telegraph pole in 9 seconds. What is the speed of the train in km/h?",
-    "options": ["50 km/h", "60 km/h", "72 km/h", "80 km/h"],
-    "correctAnswer": "60 km/h",
-    "explanation": "Speed = Distance / Time = 150m / 9s = 50/3 m/s. Convert to km/h: (50/3) × (18/5) = 60 km/h."
+    "question": "A person travels from city A to city B at 60 km/h and returns from city B to city A at 40 km/h. What is the average speed for the entire journey?",
+    "options": [
+      "48 km/h",
+      "50 km/h",
+      "52 km/h",
+      "45 km/h"
+    ],
+    "correctAnswer": "48 km/h",
+    "explanation": "📌 GIVEN DATA:\nSpeed 1 (S1) = 60 km/h\nSpeed 2 (S2) = 40 km/h\nDistance is equal in both directions.\n\n📐 FORMULA APPLIED:\nAverage Speed = (2 × S1 × S2) / (S1 + S2)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Avg Speed = (2 × 60 × 40) / (60 + 40)\nStep 2: Avg Speed = 4800 / 100 = 48 km/h.\n\n⚡ PRO-TIP / WARNING:\nDo NOT take the arithmetic mean (60+40)/2 = 50! When distance is constant, harmonic mean formula 2ab/(a+b) MUST be used."
   },
   {
-    "id": "quant-sd-03",
+    "id": "q_std_03",
     "topic": "aptitude",
     "subtopic": "speed-and-distance",
     "difficulty": "hard",
-    "orientation": "Shortcut Trick",
-    "question": "Walking at 3/4 of his usual speed, a man reaches his office 20 minutes late. What is his usual time to reach the office?",
-    "options": ["40 min", "50 min", "60 min", "80 min"],
-    "correctAnswer": "60 min",
-    "explanation": "Shortcut Trick: If speed becomes (a/b) of original speed, delay = [(b - a) / a] × Usual Time T. Here 20 = [(4 - 3)/3] × T => 20 = T / 3 => T = 60 minutes."
+    "orientation": "GATE / Placement PYQ",
+    "question": "Two trains of length 140 m and 160 m are moving on parallel tracks in opposite directions at speeds of 60 km/h and 48 km/h respectively. How long will they take to completely cross each other?",
+    "options": [
+      "10 seconds",
+      "12 seconds",
+      "15 seconds",
+      "8 seconds"
+    ],
+    "correctAnswer": "10 seconds",
+    "explanation": "📌 GIVEN DATA:\nTrain 1 length = 140 m, Train 2 length = 160 m\nSpeed 1 = 60 km/h, Speed 2 = 48 km/h (Opposite directions)\n\n📐 FORMULA APPLIED:\nTotal Distance = L1 + L2\nRelative Speed = S1 + S2 (in m/s)\nTime = Total Distance / Relative Speed\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Distance = 140m + 160m = 300 meters.\nStep 2: Relative Speed = 60 + 48 = 108 km/h.\nStep 3: Convert 108 km/h to m/s: 108 × (5 / 18) = 30 m/s.\nStep 4: Time taken = 300m / 30 m/s = 10 seconds.\n\n⚡ PRO-TIP / SPEED TRICK:\n108 km/h = 6 × 18 km/h = 6 × 5 = 30 m/s. Time = 300 / 30 = 10 seconds."
   },
   {
-    "id": "quant-int-01",
+    "id": "q_int_01",
     "topic": "aptitude",
     "subtopic": "interest",
     "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "Find the Simple Interest on $2000 at 5% per annum for 3 years.",
-    "options": ["$250", "$300", "$350", "$400"],
-    "correctAnswer": "$300",
-    "explanation": "Formula: SI = (P × R × T) / 100 = (2000 × 5 × 3) / 100 = $300."
+    "orientation": "Conceptual",
+    "question": "What is the simple interest earned on a principal of $5,000 at an annual interest rate of 8% for 3 years?",
+    "options": [
+      "$1,200",
+      "$1,400",
+      "$1,000",
+      "$1,500"
+    ],
+    "correctAnswer": "$1,200",
+    "explanation": "📌 GIVEN DATA:\nPrincipal (P) = $5,000\nRate (R) = 8% per annum\nTime (T) = 3 years\n\n📐 FORMULA APPLIED:\nSimple Interest (SI) = (P × R × T) / 100\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: SI = (5000 × 8 × 3) / 100\nStep 2: SI = 50 × 24 = $1,200.\n\n⚡ PRO-TIP / SPEED TRICK:\n8% × 3 years = 24% total interest. 24% of 5000 = 0.24 × 5000 = $1,200."
   },
   {
-    "id": "quant-int-02",
+    "id": "q_int_02",
     "topic": "aptitude",
     "subtopic": "interest",
     "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "What is the difference between Compound Interest and Simple Interest on $1000 for 2 years at 10% per annum?",
-    "options": ["$5", "$10", "$15", "$20"],
-    "correctAnswer": "$10",
-    "explanation": "Shortcut Formula for 2 years: Diff = P × (R/100)² = 1000 × (10/100)² = 1000 × 0.01 = $10."
-  },
-  {
-    "id": "verbal-syn-01",
-    "topic": "verbal",
-    "subtopic": "synonyms",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Select the synonym for the word: PRAGMATIC",
-    "options": ["Practical", "Theoretical", "Idealistic", "Arrogant"],
-    "correctAnswer": "Practical",
-    "explanation": "'Pragmatic' means dealing with things sensibly and realistically based on practical considerations."
-  },
-  {
-    "id": "verbal-syn-02",
-    "topic": "verbal",
-    "subtopic": "synonyms",
-    "difficulty": "medium",
-    "orientation": "GATE / Placement PYQ",
-    "question": "Select the word closest in meaning to: CANDID",
-    "options": ["Secretive", "Frank", "Deceitful", "Cautious"],
-    "correctAnswer": "Frank",
-    "explanation": "'Candid' means truthful, straightforward, and frank in speech or expression."
-  },
-  {
-    "id": "verbal-ant-01",
-    "topic": "verbal",
-    "subtopic": "antonyms",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Choose the word opposite in meaning to: METICULOUS",
-    "options": ["Careless", "Thorough", "Precise", "Orderly"],
-    "correctAnswer": "Careless",
-    "explanation": "'Meticulous' means showing great attention to detail. Its opposite is 'Careless'."
-  },
-  {
-    "id": "verbal-sc-01",
-    "topic": "verbal",
-    "subtopic": "sentence-correction",
-    "difficulty": "easy",
     "orientation": "Formula & Application",
-    "question": "Identify the error: 'Neither of the two candidates have completed their registration process.'",
-    "options": ["Neither of", "the two candidates", "have completed", "No error"],
-    "correctAnswer": "have completed",
-    "explanation": "Grammar Rule: 'Neither' is a singular pronoun and takes a singular verb ('has completed' instead of 'have completed')."
+    "question": "The difference between compound interest and simple interest on a certain sum of money for 2 years at 10% per annum is $45. Find the principal sum.",
+    "options": [
+      "$4,500",
+      "$4,000",
+      "$5,000",
+      "$3,500"
+    ],
+    "correctAnswer": "$4,500",
+    "explanation": "📌 GIVEN DATA:\nDifference (CI - SI) = $45\nTime (T) = 2 years\nRate (R) = 10%\n\n📐 FORMULA APPLIED:\nFor 2 years: CI - SI = P × (R / 100)²\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: 45 = P × (10 / 100)²\nStep 2: 45 = P × (1 / 10)² = P / 100\nStep 3: P = 45 × 100 = $4,500.\n\n⚡ PRO-TIP / SPEED TRICK:\n1% of Principal = $45  =>  100% Principal = $4,500."
   },
   {
-    "id": "verbal-sc-02",
-    "topic": "verbal",
-    "subtopic": "sentence-correction",
+    "id": "q_prob_01",
+    "topic": "aptitude",
+    "subtopic": "probability",
+    "difficulty": "easy",
+    "orientation": "Conceptual",
+    "question": "Two unbiased dice are rolled simultaneously. What is the probability of obtaining a sum of 8?",
+    "options": [
+      "5/36",
+      "1/6",
+      "7/36",
+      "1/9"
+    ],
+    "correctAnswer": "5/36",
+    "explanation": "📌 GIVEN DATA:\nTwo 6-sided unbiased dice rolled.\n\n📐 FORMULA APPLIED:\nProbability = Favorable Outcomes / Total Sample Space\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Sample Space = 6 × 6 = 36 outcomes.\nStep 2: Favorable pairs that sum to 8: (2,6), (3,5), (4,4), (5,3), (6,2).\nStep 3: Number of favorable outcomes = 5.\nStep 4: Probability P = 5 / 36.\n\n⚡ PRO-TIP / SPEED TRICK:\nSums of two dice follow pyramid counts: Sum 2(1), 3(2), 4(3), 5(4), 6(5), 7(6), 8(5), 9(4), 10(3), 11(2), 12(1). Sum 8 has 5 outcomes!"
+  },
+  {
+    "id": "q_prob_02",
+    "topic": "aptitude",
+    "subtopic": "probability",
     "difficulty": "medium",
     "orientation": "GATE / Placement PYQ",
-    "question": "Choose the correct option: 'Scarcely had he reached the station ____ the train departed.'",
-    "options": ["than", "when", "then", "before"],
-    "correctAnswer": "when",
-    "explanation": "Correlative Pair Rule: 'Scarcely' and 'Hardly' are always grammatically paired with 'when'."
+    "question": "A bag contains 5 red and 3 green balls. If 2 balls are drawn at random without replacement, what is the probability that both balls are red?",
+    "options": [
+      "5/14",
+      "10/28",
+      "5/28",
+      "15/56"
+    ],
+    "correctAnswer": "5/14",
+    "explanation": "📌 GIVEN DATA:\nRed balls = 5, Green balls = 3, Total balls = 8.\nDraw 2 balls without replacement.\n\n📐 FORMULA APPLIED:\nP(Both Red) = P(1st Red) × P(2nd Red | 1st Red) = 5C2 / 8C2\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: P(1st Red) = 5 / 8.\nStep 2: Remaining Red = 4, Remaining Total = 7.\nStep 3: P(2nd Red) = 4 / 7.\nStep 4: P(Both Red) = (5 / 8) × (4 / 7) = 20 / 56 = 5 / 14.\n\n⚡ PRO-TIP / COMBINATORICS WAY:\n5C2 / 8C2 = (5×4/2) / (8×7/2) = 10 / 28 = 5 / 14."
   },
   {
-    "id": "lr-syl-01",
+    "id": "q_syl_01",
     "topic": "logical-reasoning",
     "subtopic": "syllogisms",
     "difficulty": "easy",
     "orientation": "Conceptual",
-    "question": "Statements: All cats are mammals. All mammals are animals.\nConclusion I: All cats are animals.\nConclusion II: Some animals are cats.",
-    "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither follows"],
-    "correctAnswer": "Both I and II follow",
-    "explanation": "Venn Diagram Rule: Cats ⊂ Mammals ⊂ Animals. Therefore both conclusions I and II hold true."
+    "question": "Statements:\n1. All computers are machines.\n2. All machines are electronic devices.\n\nConclusions:\nI. All computers are electronic devices.\nII. Some electronic devices are computers.",
+    "options": [
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both Conclusion I and II follow",
+      "Neither Conclusion I nor II follows"
+    ],
+    "correctAnswer": "Both Conclusion I and II follow",
+    "explanation": "📌 GIVEN DATA:\nStatement 1: Computers ⊂ Machines\nStatement 2: Machines ⊂ Electronic Devices\n\n📐 FORMULA APPLIED:\nTransitive Venn Inclusion: A ⊂ B and B ⊂ C  =>  A ⊂ C\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Nested circles: Computers inside Machines, Machines inside Electronic Devices.\nStep 2: Conclusion I: Computers are entirely inside Electronic Devices -> TRUE.\nStep 3: Conclusion II: The region occupied by Computers is part of Electronic Devices -> TRUE.\n\n⚡ PRO-TIP / SPEED TRICK:\nAll + All => All (Computers -> Electronic Devices). Universal affirmative 'All A are C' always converts to 'Some C are A'."
   },
   {
-    "id": "lr-cd-01",
+    "id": "q_syl_02",
     "topic": "logical-reasoning",
-    "subtopic": "coding-decoding",
+    "subtopic": "syllogisms",
     "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "If 'GATE' is coded as 'IZVG', how is 'TEST' coded in the same pattern?",
-    "options": ["VGVV", "VHUV", "VGVU", "UGVU"],
-    "correctAnswer": "VGVV",
-    "explanation": "Pattern: G(+2)=I, A(-1)=Z, T(+2)=V, E(+2)=G. Applying to T(+2)=V, E(+2)=G, S(+2)=U, T(+2)=V => VGVV."
+    "orientation": "GATE / Placement PYQ",
+    "question": "Statements:\n1. Some engineers are coders.\n2. No coder is a lazy person.\n\nConclusions:\nI. No engineer is a lazy person.\nII. Some engineers are not lazy persons.",
+    "options": [
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "correctAnswer": "Only Conclusion II follows",
+    "explanation": "📌 GIVEN DATA:\nStatement 1: Engineers ∩ Coders ≠ ∅\nStatement 2: Coders ∩ Lazy = ∅\n\n📐 FORMULA APPLIED:\nVenn Diagram Intersection Rules\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: The engineers who are coders CANNOT be lazy (since no coder is lazy).\nStep 2: Conclusion I ('No engineer is lazy') assumes non-coder engineers can't be lazy either, which is unstated and false.\nStep 3: Conclusion II ('Some engineers are not lazy') refers to the coder-engineers, which is DEFINITELY TRUE.\n\n⚡ PRO-TIP / RULE:\nSome + No => Some Not (Some Engineers are Not Lazy Persons)."
   },
   {
-    "id": "di-pie-01",
-    "topic": "data-interpretation",
-    "subtopic": "pie-charts",
+    "id": "q_br_01",
+    "topic": "logical-reasoning",
+    "subtopic": "blood-relations",
     "difficulty": "easy",
-    "orientation": "Formula & Application",
-    "question": "A company's total annual budget is $500,000. If the R&D department receives a 25% allocation in a pie chart, how much money goes to R&D?",
-    "options": ["$100,000", "$125,000", "$150,000", "$175,000"],
-    "correctAnswer": "$125,000",
-    "explanation": "Formula: Allocation = 25% of $500,000 = 0.25 × 500,000 = $125,000."
+    "orientation": "Conceptual",
+    "question": "Pointing to a photograph, a man said: 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
+    "options": [
+      "Sister",
+      "Mother",
+      "Aunt",
+      "Daughter"
+    ],
+    "correctAnswer": "Sister",
+    "explanation": "📌 GIVEN DATA:\nSpeaker = Man\nReference: 'My grandfather's only son'\n\n📐 FORMULA APPLIED:\nGeneration Mapping:\nGrandfather's only son = Father\nFather's daughter = Sister\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: 'Grandfather's only son' => Father of the man.\nStep 2: 'Daughter of my father' => Sister of the man.\nStep 3: Therefore, the woman in the photo is the man's Sister.\n\n⚡ PRO-TIP / SPEED TRICK:\nDecode from the inside out: 'Grandfather's only son' = Father. 'Daughter of father' = Sister."
   },
   {
-    "id": "di-bar-01",
-    "topic": "data-interpretation",
-    "subtopic": "bar-charts",
+    "id": "q_rc_01",
+    "topic": "verbal",
+    "subtopic": "reading-comprehension",
     "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "Sales figures for 3 quarters are: Q1 = 120 units, Q2 = 180 units, Q3 = 240 units. What is the percentage increase in sales from Q1 to Q3?",
-    "options": ["50%", "75%", "100%", "120%"],
+    "orientation": "GATE / Placement PYQ",
+    "question": "Passage: 'Artificial Intelligence algorithms learn patterns from historical datasets. However, if the underlying data contains historical societal biases, the machine learning models will inevitably replicate and amplify these biases.'\n\nQuestion: Which of the following is the main inference of the passage?",
+    "options": [
+      "AI models are inherently flawed and should not be used.",
+      "AI predictions are only as unbiased as the data used to train them.",
+      "Historical datasets are completely unreliable for technology.",
+      "Societal biases cannot be detected by computer algorithms."
+    ],
+    "correctAnswer": "AI predictions are only as unbiased as the data used to train them.",
+    "explanation": "📌 GIVEN DATA:\nPremise 1: AI learns from historical datasets.\nPremise 2: If datasets have bias, models replicate & amplify that bias.\n\n📐 LOGICAL INFERENCE RULE:\nAn inference must be a direct, necessary logical consequence of the stated premises without extreme over-generalization.\n\n🔢 STEP-BY-STEP ELIMINATION:\n- Option 1 is extreme ('inherently flawed / should not be used').\n- Option 2 correctly captures the core premise: AI output quality and fairness depend directly on training data quality.\n- Option 3 is overly broad ('completely unreliable').\n- Option 4 contradicts the passage.\n\n⚡ PRO-TIP / VERBAL RULE:\nBeware of extreme words like 'completely', 'never', 'inherently' in Reading Comprehension."
+  },
+  {
+    "id": "q_sc_01",
+    "topic": "verbal",
+    "subtopic": "sentence-correction",
+    "difficulty": "easy",
+    "orientation": "Conceptual",
+    "question": "Identify the grammatically correct sentence:",
+    "options": [
+      "Neither of the two candidates have submitted their resume.",
+      "Neither of the two candidates has submitted his resume.",
+      "Neither of the two candidates have submitted his resume.",
+      "Neither of the two candidates has submit their resume."
+    ],
+    "correctAnswer": "Neither of the two candidates has submitted his resume.",
+    "explanation": "📌 GIVEN DATA:\nSubject pronoun = 'Neither'\n\n📐 GRAMMAR RULE APPLIED:\n1. 'Neither' is ALWAYS a singular indefinite pronoun and requires a SINGULAR verb ('has', not 'have').\n2. Singular subject 'Neither' takes singular possessive pronoun ('his' or 'his/her').\n\n🔢 STEP-BY-STEP BREAKDOWN:\n- 'Neither... have' is incorrect (plural verb).\n- 'Neither... has submitted his resume' satisfies singular subject-verb and pronoun agreement.\n\n⚡ PRO-TIP / SPEED TRICK:\nWords like 'Each', 'Every', 'Either', 'Neither', 'Everyone' ALWAYS take singular verbs!"
+  },
+  {
+    "id": "q_di_01",
+    "topic": "data-interpretation",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "orientation": "GATE / Placement PYQ",
+    "question": "Company revenue over 4 quarters: Q1 = $20M, Q2 = $25M, Q3 = $30M, Q4 = $40M. What is the percentage growth in revenue from Q1 to Q4?",
+    "options": [
+      "100%",
+      "50%",
+      "75%",
+      "200%"
+    ],
     "correctAnswer": "100%",
-    "explanation": "Increase = 240 - 120 = 120 units. Percentage increase = (120 / 120) × 100 = 100%."
+    "explanation": "📌 GIVEN DATA:\nQ1 Revenue (Initial) = $20M\nQ4 Revenue (Final) = $40M\n\n📐 FORMULA APPLIED:\nPercentage Growth = [ (Final Value - Initial Value) / Initial Value ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Increase Amount = 40M - 20M = $20M.\nStep 2: Percentage Growth = (20M / 20M) × 100% = 1 × 100% = 100%.\n\n⚡ PRO-TIP / SPEED TRICK:\nSince revenue doubled from 20M to 40M, doubling ALWAYS equals a 100% growth!"
   }
 ]

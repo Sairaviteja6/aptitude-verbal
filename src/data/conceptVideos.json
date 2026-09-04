@@ -1,88 +1,168 @@
 {
   "percentages": {
-    "title": "Percentages - Concept, Formulas & Short Tricks",
+    "title": "Percentages - Complete Concept & Short Tricks",
     "channel": "Aptitude Tutorials",
     "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Percentages+Aptitude+Concept+Tricks",
     "keyFormulas": [
-      "Percentage Increase = [(New - Old) / Old] × 100",
-      "Consumption Reduction = [r / (100 + r)] × 100% when price increases by r%",
-      "Successive Change = A + B + (AB / 100)"
+      "Percentage Increase/Decrease = [(Final - Initial) / Initial] × 100",
+      "Consumption Reduction = [r / (100 + r)] × 100% when price rises by r%",
+      "Net Successive % Change = A + B + (A × B / 100)"
     ],
     "keyConcepts": "Understand percentage as a fraction out of 100. Master base-value shifting and multiplier methods (e.g., 25% increase = 1.25x)."
   },
   "profit-and-loss": {
     "title": "Profit & Loss - Complete Concepts & Shortcut Tricks",
     "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/Z0oYf8tW02c",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Profit+and+Loss+Aptitude+Tricks",
     "keyFormulas": [
-      "Profit % = (Profit / Cost Price) × 100",
-      "Loss % = (Loss / Cost Price) × 100",
+      "Profit % = (Profit / CP) × 100 | Loss % = (Loss / CP) × 100",
       "Selling Price = Cost Price × [(100 ± Profit/Loss %) / 100]",
       "Marked Price & Discount: SP = MP × [(100 - Discount %) / 100]"
     ],
-    "keyConcepts": "Cost Price (CP) is always 100% baseline. Profit or Loss is calculated on CP, whereas Discount is calculated on Marked Price (MP)."
+    "keyConcepts": "Cost Price (CP) is always the 100% baseline. Profit or Loss is calculated on CP, whereas Discount is calculated on Marked Price (MP)."
   },
   "ratio-and-proportion": {
     "title": "Ratio & Proportion - Fundamentals & Quick Rules",
     "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/jfo38d15pwc",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Ratio+and+Proportion+Aptitude+Tricks",
     "keyFormulas": [
       "Duplicate Ratio of a:b = a²:b²",
       "Mean Proportional between a and b = √(a × b)",
-      "If a:b = c:d, then a × d = b × c (Product of extremes = Product of means)"
+      "Product of Extremes = Product of Means: a × d = b × c"
     ],
-    "keyConcepts": "Use constant multiplier x to represent components as ax, bx. Equal ratios can be combined by finding LCM of common terms."
+    "keyConcepts": "Use constant multiplier x to represent components as ax, bx. Equal ratios can be combined by finding the LCM of common terms."
   },
   "time-and-work": {
     "title": "Time & Work - Efficiency & LCM Method Shortcuts",
     "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/KE7tQf9spkk",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Time+and+Work+Aptitude+LCM+Method",
     "keyFormulas": [
       "Work Done = Rate × Time",
-      "If A takes D1 days and B takes D2 days, Together Time = (D1 × D2) / (D1 + D2)",
-      "Efficiency ∝ 1 / Time"
+      "Combined Time = (D1 × D2) / (D1 + D2)",
+      "Chain Rule: (M1 × D1 × H1) / W1 = (M2 × D2 × H2) / W2"
     ],
     "keyConcepts": "Assume Total Work = LCM of given days. Calculate daily efficiency units to quickly solve complex joint-work problems."
   },
   "speed-and-distance": {
     "title": "Speed, Time & Distance - Relative Speed & Train Problems",
     "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/S2C1eWUpn1c",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Speed+Time+Distance+Relative+Speed+Train+Tricks",
     "keyFormulas": [
       "Speed = Distance / Time",
       "Conversion: 1 km/h = 5/18 m/s, 1 m/s = 18/5 km/h",
       "Average Speed (equal distance) = (2 × S1 × S2) / (S1 + S2)",
-      "Relative Speed (Opposite Direction) = S1 + S2",
-      "Relative Speed (Same Direction) = |S1 - S2|"
+      "Relative Speed (Opposite) = S1 + S2 | Same Direction = |S1 - S2|"
     ],
-    "keyConcepts": "When two trains cross each other, total distance crossed is the sum of both train lengths. Adjust speed based on direction."
+    "keyConcepts": "When two objects move towards each other, add their speeds. When crossing a train or platform, total distance is the sum of their lengths."
+  },
+  "interest": {
+    "title": "Simple & Compound Interest - Formulas & Shortcuts",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/T4qTqG2L3-8",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Simple+and+Compound+Interest+Aptitude+Tricks",
+    "keyFormulas": [
+      "Simple Interest = (P × R × T) / 100",
+      "Compound Interest Amount = P × (1 + R/100)^T",
+      "2-Year CI - SI Difference = P × (R / 100)²"
+    ],
+    "keyConcepts": "Simple Interest remains constant every year on principal. Compound interest accrues interest on interest."
+  },
+  "probability": {
+    "title": "Probability - Fundamentals, Dice & Card Problems",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/3E5tq-vXw8U",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Probability+Aptitude+GATE+Placement+Tricks",
+    "keyFormulas": [
+      "Probability P(E) = Favorable Outcomes / Total Outcomes",
+      "Complementary Event: P(E') = 1 - P(E)",
+      "Independent Events: P(A ∩ B) = P(A) × P(B)"
+    ],
+    "keyConcepts": "Total probability is always between 0 and 1. When tossing n coins, total outcomes = 2^n; for n dice, total outcomes = 6^n."
+  },
+  "permutations-and-combinations": {
+    "title": "Permutations & Combinations - Arrangement vs Selection",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/D3c80V-8d8s",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Permutations+and+Combinations+Aptitude+Shortcuts",
+    "keyFormulas": [
+      "Permutation (Arrangement): nPr = n! / (n - r)!",
+      "Combination (Selection): nCr = n! / [r! × (n - r)!]",
+      "Circular Permutation = (n - 1)!"
+    ],
+    "keyConcepts": "Use Permutations when ORDER matters (e.g. seated in a row). Use Combinations when order DOES NOT matter (e.g. forming a committee)."
   },
   "reading-comprehension": {
-    "title": "Verbal Ability - Reading Comprehension Strategies",
+    "title": "Verbal Ability - Reading Comprehension & Tone Strategies",
     "channel": "Verbal Mastery",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/2_8r0uK8f-g",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Reading+Comprehension+Placement+GATE+Verbal+Tricks",
     "keyFormulas": [
       "Skim for main idea → Scan for keywords → Infer tone and author intent",
-      "Watch for transition contrast words: However, Nevertheless, Yet, Conversely"
+      "Transition contrast words: However, Nevertheless, Yet, Conversely"
     ],
     "keyConcepts": "Identify paragraph structure, distinguish stated facts from author inferences, and eliminate extreme options."
   },
+  "sentence-correction": {
+    "title": "Grammar & Sentence Correction Rules for GATE / Placements",
+    "channel": "Verbal Mastery",
+    "videoUrl": "https://www.youtube.com/embed/X7x9D8jJ-x4",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Sentence+Correction+Grammar+Rules+Aptitude",
+    "keyFormulas": [
+      "Subject-Verb Agreement: Singular subject takes singular verb.",
+      "Parallelism: Items in a list must match grammatical structures.",
+      "Correlative pairs: Neither...nor, Either...or, Hardly...when"
+    ],
+    "keyConcepts": "Watch out for dangling modifiers and improper pronoun reference."
+  },
   "syllogisms": {
-    "title": "Logical Reasoning - Syllogism Venn Diagram Rules",
+    "title": "Logical Reasoning - Syllogisms & Venn Diagram Tricks",
     "channel": "Logical Reasoning Pro",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube.com/embed/8JgD5d0Fp5s",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Syllogisms+Logical+Reasoning+Venn+Diagram+Tricks",
     "keyFormulas": [
       "All A are B → A ⊂ B",
       "Some A are B → A ∩ B ≠ ∅",
       "No A is B → A ∩ B = ∅"
     ],
     "keyConcepts": "Draw minimal overlap Venn diagrams. A conclusion is valid ONLY if it holds true in ALL possible Venn diagram representations."
+  },
+  "blood-relations": {
+    "title": "Blood Relations - Family Tree Diagrams & Short Tricks",
+    "channel": "Logical Reasoning Pro",
+    "videoUrl": "https://www.youtube.com/embed/Y0T4-2lZ_f8",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Blood+Relations+Logical+Reasoning+Family+Tree+Tricks",
+    "keyFormulas": [
+      "Gender symbols: (+) for Male, (-) for Female",
+      "Generation level: Horizontal line for same generation, vertical for parents/children"
+    ],
+    "keyConcepts": "Always draw a family tree step-by-step from the central speaker or reference point."
+  },
+  "data-interpretation": {
+    "title": "Data Interpretation - Tables, Bar Charts & Calculation Tricks",
+    "channel": "DI & Reasoning Masters",
+    "videoUrl": "https://www.youtube.com/embed/1v0vH7D9g3M",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Data+Interpretation+Tables+Bar+Charts+Tricks",
+    "keyFormulas": [
+      "% Increase = (Difference / Initial) × 100",
+      "Ratio comparison = Cross-multiplication method for fraction comparison"
+    ],
+    "keyConcepts": "Master rapid estimation, fraction-to-percentage conversions, and weighted averages to solve DI sets quickly."
+  },
+  "number-series": {
+    "title": "Number Series & Missing Pattern Recognition",
+    "channel": "Logical Reasoning Pro",
+    "videoUrl": "https://www.youtube.com/embed/9BqM2qj0U48",
+    "youtubeLink": "https://www.youtube.com/results?search_query=Number+Series+Reasoning+Patterns+Tricks",
+    "keyFormulas": [
+      "Check 1st Difference → 2nd Difference (Double Difference)",
+      "Check Squares & Cubes ± n",
+      "Check Alternate / Twin Series"
+    ],
+    "keyConcepts": "If numbers increase rapidly, look for multiplication/power series. If slow, look for addition/subtraction series."
   }
 }

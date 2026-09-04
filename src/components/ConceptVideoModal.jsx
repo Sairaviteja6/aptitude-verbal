@@ -45,16 +45,17 @@ export default function ConceptVideoModal({ subtopic = 'percentages', isOpen, on
             />
           </div>
 
-          {/* External Link */}
-          <div className="flex justify-end">
+          {/* External Links */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
             <a
-              href={videoData.youtubeLink}
+              href={videoData.youtubeLink || `https://www.youtube.com/results?search_query=Aptitude+${encodeURIComponent(subtopic)}+Tricks`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs text-rose-400 hover:text-rose-300 font-mono font-semibold"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-rose-950/60 hover:bg-rose-900 border border-rose-500/40 text-xs text-rose-300 font-mono font-semibold transition-all"
             >
-              <span>Watch directly on YouTube</span>
-              <ExternalLink className="w-3.5 h-3.5" />
+              <Youtube className="w-4 h-4 text-rose-400" />
+              <span>Search All {subtopic.replace(/-/g, ' ')} Videos on YouTube</span>
+              <ExternalLink className="w-3.5 h-3.5 ml-1" />
             </a>
           </div>
 
