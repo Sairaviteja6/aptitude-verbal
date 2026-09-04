@@ -1,9 +1,11 @@
 {
   "percentages": {
-    "title": "Percentages - Complete Concept & Short Tricks",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Percentages+Aptitude+Concept+Tricks",
+    "title": "Percentages - Concept, Base Shifts & Short Tricks",
+    "channel": "Aptitude Tutorials & GATE Preparation",
+    "videoId": "Fb0B_32dTYg",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/Fb0B_32dTYg?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=Fb0B_32dTYg",
+    "searchUrl": "https://www.youtube.com/results?search_query=Percentages+Aptitude+Short+Tricks",
     "keyFormulas": [
       "Percentage Increase/Decrease = [(Final - Initial) / Initial] × 100",
       "Consumption Reduction = [r / (100 + r)] × 100% when price rises by r%",
@@ -13,9 +15,11 @@
   },
   "profit-and-loss": {
     "title": "Profit & Loss - Complete Concepts & Shortcut Tricks",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/Z0oYf8tW02c",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Profit+and+Loss+Aptitude+Tricks",
+    "channel": "GATE Smashers & Placement Aptitude",
+    "videoId": "Z0oYf8tW02c",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/Z0oYf8tW02c?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=Z0oYf8tW02c",
+    "searchUrl": "https://www.youtube.com/results?search_query=Profit+and+Loss+Aptitude+Tricks",
     "keyFormulas": [
       "Profit % = (Profit / CP) × 100 | Loss % = (Loss / CP) × 100",
       "Selling Price = Cost Price × [(100 ± Profit/Loss %) / 100]",
@@ -25,9 +29,11 @@
   },
   "ratio-and-proportion": {
     "title": "Ratio & Proportion - Fundamentals & Quick Rules",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/jfo38d15pwc",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Ratio+and+Proportion+Aptitude+Tricks",
+    "channel": "CareerRide Aptitude Lessons",
+    "videoId": "jfo38d15pwc",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/jfo38d15pwc?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=jfo38d15pwc",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ratio+and+Proportion+Aptitude+Tricks",
     "keyFormulas": [
       "Duplicate Ratio of a:b = a²:b²",
       "Mean Proportional between a and b = √(a × b)",
@@ -37,9 +43,11 @@
   },
   "time-and-work": {
     "title": "Time & Work - Efficiency & LCM Method Shortcuts",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/KE7tQf9spkk",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Time+and+Work+Aptitude+LCM+Method",
+    "channel": "WiFiStudy & Unacademy Aptitude",
+    "videoId": "KE7tQf9spkk",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/KE7tQf9spkk?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=KE7tQf9spkk",
+    "searchUrl": "https://www.youtube.com/results?search_query=Time+and+Work+LCM+Method+Aptitude",
     "keyFormulas": [
       "Work Done = Rate × Time",
       "Combined Time = (D1 × D2) / (D1 + D2)",
@@ -49,9 +57,11 @@
   },
   "speed-and-distance": {
     "title": "Speed, Time & Distance - Relative Speed & Train Problems",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/S2C1eWUpn1c",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Speed+Time+Distance+Relative+Speed+Train+Tricks",
+    "channel": "Feel Free to Learn Aptitude",
+    "videoId": "S2C1eWUpn1c",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/S2C1eWUpn1c?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=S2C1eWUpn1c",
+    "searchUrl": "https://www.youtube.com/results?search_query=Speed+Time+Distance+Train+Problems",
     "keyFormulas": [
       "Speed = Distance / Time",
       "Conversion: 1 km/h = 5/18 m/s, 1 m/s = 18/5 km/h",
@@ -62,9 +72,11 @@
   },
   "interest": {
     "title": "Simple & Compound Interest - Formulas & Shortcuts",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/T4qTqG2L3-8",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Simple+and+Compound+Interest+Aptitude+Tricks",
+    "channel": "Aptitude Tricks for Placements",
+    "videoId": "T4qTqG2L3-8",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/T4qTqG2L3-8?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=T4qTqG2L3-8",
+    "searchUrl": "https://www.youtube.com/results?search_query=Simple+Compound+Interest+Aptitude+Tricks",
     "keyFormulas": [
       "Simple Interest = (P × R × T) / 100",
       "Compound Interest Amount = P × (1 + R/100)^T",
@@ -74,9 +86,11 @@
   },
   "probability": {
     "title": "Probability - Fundamentals, Dice & Card Problems",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/3E5tq-vXw8U",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Probability+Aptitude+GATE+Placement+Tricks",
+    "channel": "GATE Aptitude Series",
+    "videoId": "3E5tq-vXw8U",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/3E5tq-vXw8U?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=3E5tq-vXw8U",
+    "searchUrl": "https://www.youtube.com/results?search_query=Probability+Aptitude+GATE+Placement",
     "keyFormulas": [
       "Probability P(E) = Favorable Outcomes / Total Outcomes",
       "Complementary Event: P(E') = 1 - P(E)",
@@ -86,9 +100,11 @@
   },
   "permutations-and-combinations": {
     "title": "Permutations & Combinations - Arrangement vs Selection",
-    "channel": "Aptitude Tutorials",
-    "videoUrl": "https://www.youtube.com/embed/D3c80V-8d8s",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Permutations+and+Combinations+Aptitude+Shortcuts",
+    "channel": "Quantitative Aptitude Mastery",
+    "videoId": "D3c80V-8d8s",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/D3c80V-8d8s?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=D3c80V-8d8s",
+    "searchUrl": "https://www.youtube.com/results?search_query=Permutations+and+Combinations+Aptitude+Tricks",
     "keyFormulas": [
       "Permutation (Arrangement): nPr = n! / (n - r)!",
       "Combination (Selection): nCr = n! / [r! × (n - r)!]",
@@ -98,9 +114,11 @@
   },
   "reading-comprehension": {
     "title": "Verbal Ability - Reading Comprehension & Tone Strategies",
-    "channel": "Verbal Mastery",
-    "videoUrl": "https://www.youtube.com/embed/2_8r0uK8f-g",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Reading+Comprehension+Placement+GATE+Verbal+Tricks",
+    "channel": "Verbal Mastery for CAT & GATE",
+    "videoId": "2_8r0uK8f-g",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/2_8r0uK8f-g?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=2_8r0uK8f-g",
+    "searchUrl": "https://www.youtube.com/results?search_query=Reading+Comprehension+Placement+Verbal",
     "keyFormulas": [
       "Skim for main idea → Scan for keywords → Infer tone and author intent",
       "Transition contrast words: However, Nevertheless, Yet, Conversely"
@@ -109,9 +127,11 @@
   },
   "sentence-correction": {
     "title": "Grammar & Sentence Correction Rules for GATE / Placements",
-    "channel": "Verbal Mastery",
-    "videoUrl": "https://www.youtube.com/embed/X7x9D8jJ-x4",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Sentence+Correction+Grammar+Rules+Aptitude",
+    "channel": "Verbal Ability Lessons",
+    "videoId": "X7x9D8jJ-x4",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/X7x9D8jJ-x4?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=X7x9D8jJ-x4",
+    "searchUrl": "https://www.youtube.com/results?search_query=Sentence+Correction+Grammar+Rules+Aptitude",
     "keyFormulas": [
       "Subject-Verb Agreement: Singular subject takes singular verb.",
       "Parallelism: Items in a list must match grammatical structures.",
@@ -122,8 +142,10 @@
   "syllogisms": {
     "title": "Logical Reasoning - Syllogisms & Venn Diagram Tricks",
     "channel": "Logical Reasoning Pro",
-    "videoUrl": "https://www.youtube.com/embed/8JgD5d0Fp5s",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Syllogisms+Logical+Reasoning+Venn+Diagram+Tricks",
+    "videoId": "8JgD5d0Fp5s",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/8JgD5d0Fp5s?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=8JgD5d0Fp5s",
+    "searchUrl": "https://www.youtube.com/results?search_query=Syllogisms+Logical+Reasoning+Venn+Diagram+Tricks",
     "keyFormulas": [
       "All A are B → A ⊂ B",
       "Some A are B → A ∩ B ≠ ∅",
@@ -134,8 +156,10 @@
   "blood-relations": {
     "title": "Blood Relations - Family Tree Diagrams & Short Tricks",
     "channel": "Logical Reasoning Pro",
-    "videoUrl": "https://www.youtube.com/embed/Y0T4-2lZ_f8",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Blood+Relations+Logical+Reasoning+Family+Tree+Tricks",
+    "videoId": "Y0T4-2lZ_f8",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/Y0T4-2lZ_f8?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=Y0T4-2lZ_f8",
+    "searchUrl": "https://www.youtube.com/results?search_query=Blood+Relations+Logical+Reasoning+Family+Tree+Tricks",
     "keyFormulas": [
       "Gender symbols: (+) for Male, (-) for Female",
       "Generation level: Horizontal line for same generation, vertical for parents/children"
@@ -145,8 +169,10 @@
   "data-interpretation": {
     "title": "Data Interpretation - Tables, Bar Charts & Calculation Tricks",
     "channel": "DI & Reasoning Masters",
-    "videoUrl": "https://www.youtube.com/embed/1v0vH7D9g3M",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Data+Interpretation+Tables+Bar+Charts+Tricks",
+    "videoId": "1v0vH7D9g3M",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/1v0vH7D9g3M?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=1v0vH7D9g3M",
+    "searchUrl": "https://www.youtube.com/results?search_query=Data+Interpretation+Tables+Bar+Charts+Tricks",
     "keyFormulas": [
       "% Increase = (Difference / Initial) × 100",
       "Ratio comparison = Cross-multiplication method for fraction comparison"
@@ -156,8 +182,10 @@
   "number-series": {
     "title": "Number Series & Missing Pattern Recognition",
     "channel": "Logical Reasoning Pro",
-    "videoUrl": "https://www.youtube.com/embed/9BqM2qj0U48",
-    "youtubeLink": "https://www.youtube.com/results?search_query=Number+Series+Reasoning+Patterns+Tricks",
+    "videoId": "9BqM2qj0U48",
+    "videoUrl": "https://www.youtube-nocookie.com/embed/9BqM2qj0U48?rel=0&modestbranding=1",
+    "directWatchUrl": "https://www.youtube.com/watch?v=9BqM2qj0U48",
+    "searchUrl": "https://www.youtube.com/results?search_query=Number+Series+Reasoning+Patterns+Tricks",
     "keyFormulas": [
       "Check 1st Difference → 2nd Difference (Double Difference)",
       "Check Squares & Cubes ± n",
