@@ -209,7 +209,9 @@ export default function Practice() {
                 >
                   <div className="flex items-center gap-1.5 truncate">
                     <span className={`w-2 h-2 rounded-full shrink-0 ${q.difficulty === 'easy' ? 'bg-emerald-400' : q.difficulty === 'medium' ? 'bg-amber-400' : 'bg-rose-400'}`} />
-                    <span className="truncate">Q{idx + 1}. {q.subtopic}</span>
+                    <span className="truncate" title={q.question}>
+                      Q{idx + 1}. <span className="text-slate-400 font-mono text-[10px]">[{q.orientation ? q.orientation.split(' ')[0] : 'Q'}]</span> {q.question}
+                    </span>
                   </div>
                   {isDone && <CheckCircle className="w-3.5 h-3.5 text-emerald-400 shrink-0 ml-1" />}
                 </button>
