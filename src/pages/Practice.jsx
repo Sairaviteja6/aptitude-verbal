@@ -168,6 +168,7 @@ export default function Practice() {
 
       {/* Topic-Oriented YouTube Video Tutorial Player Embedded directly on Practice Page */}
       <TopicVideoPlayer
+        key={currentQ?.subtopic || selectedSubtopic}
         subtopic={selectedSubtopic !== 'all' ? selectedSubtopic : (currentQ?.subtopic || 'percentages')}
       />
 
