@@ -141,6 +141,8 @@ export default function Practice() {
               className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-brand-500"
             >
               <option value="all">All Orientations</option>
+              <option value="IndiaBIX Standard">IndiaBIX Standard Questions</option>
+              <option value="GeeksforGeeks PYQ">GeeksforGeeks PYQs</option>
               <option value="Conceptual">Conceptual Foundation</option>
               <option value="Formula & Application">Formula & Direct Application</option>
               <option value="Shortcut Trick">Shortcut Trick / Speed Math</option>

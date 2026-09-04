@@ -1,386 +1,133 @@
 [
-  {
-    "id": "q_perc_01",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "If the price of sugar increases by 25%, by what percentage must a household reduce its sugar consumption so that the total monthly expenditure remains unchanged?",
-    "options": [
-      "15%",
-      "20%",
-      "25%",
-      "30%"
-    ],
-    "correctAnswer": "20%",
-    "explanation": "📌 GIVEN DATA:\nPrice increase (r) = 25%.\nGoal: Keep total expenditure constant.\n\n📐 FORMULA APPLIED:\nConsumption Reduction % = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Substitute r = 25 into the formula.\nStep 2: Reduction % = [ 25 / (100 + 25) ] × 100%\nStep 3: Reduction % = (25 / 125) × 100% = (1 / 5) × 100% = 20%.\n\n⚡ PRO-TIP / SPEED TRICK:\nIf price increases by 1/4 (25%), consumption must decrease by 1/(4 + 1) = 1/5 = 20%."
-  },
-  {
-    "id": "q_perc_02",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
-    "options": [
-      "36%",
-      "44%",
-      "64%",
-      "54%"
-    ],
-    "correctAnswer": "64%",
-    "explanation": "📌 GIVEN DATA:\nTrue Multiplier = 5/3\nWrong Multiplier = 3/5\n\n📐 FORMULA APPLIED:\nPercentage Error = [ |True Value - Erroneous Value| / True Value ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let the original number be LCM(3, 5) = 15.\nStep 2: True Value = 15 × (5/3) = 25.\nStep 3: Erroneous Value = 15 × (3/5) = 9.\nStep 4: Error Amount = 25 - 9 = 16.\nStep 5: Percentage Error = (16 / 25) × 100% = 64%.\n\n⚡ PRO-TIP / SPEED TRICK:\nError % = [ (5² - 3²) / 5² ] × 100% = [ (25 - 9) / 25 ] × 100% = 64%."
-  },
-  {
-    "id": "q_perc_03",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "hard",
-    "orientation": "GATE / Placement PYQ",
-    "question": "In an election between two candidates, 10% of voters did not cast their vote and 60 votes were declared invalid. The winning candidate secured 47% of the total enrolled voters and won by 308 votes. What is the total number of enrolled voters?",
-    "options": [
-      "5600",
-      "6200",
-      "6000",
-      "6400"
-    ],
-    "correctAnswer": "6200",
-    "explanation": "📌 GIVEN DATA:\nUncast votes = 10% of Total Enrolled (T)\nInvalid votes = 60\nWinner votes (W) = 47% of Total Enrolled (T) = 0.47T\nWinner Margin = 308 votes over Loser (L)\n\n📐 FORMULA APPLIED:\nValid Votes = Cast Votes - Invalid Votes = (W + L)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Enrolled = 100% (or T).\nStep 2: Cast Votes = 90% of T = 0.90T.\nStep 3: Total Valid Votes = 0.90T - 60.\nStep 4: Winner (W) gets 0.47T. Loser (L) gets (Valid Votes - W) = (0.90T - 60) - 0.47T = 0.43T - 60.\nStep 5: Winner Margin W - L = 0.47T - (0.43T - 60) = 308.\nStep 6: 0.04T + 60 = 308  =>  0.04T = 248  =>  T = 248 / 0.04 = 6200.\n\n⚡ PRO-TIP / SPEED TRICK:\nNet Margin % = 47% - (90% - 47%) = 4% of Total. 4% of Total + 60 = 308  => 4% = 248  => 100% = 6200."
-  },
-  {
-    "id": "q_perc_04",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "If A's salary is 20% more than B's salary, then by what percentage is B's salary less than A's salary?",
-    "options": [
-      "16.67%",
-      "20%",
-      "25%",
-      "15%"
-    ],
-    "correctAnswer": "16.67%",
-    "explanation": "📌 GIVEN DATA:\nA's salary = B's salary + 20% of B's salary.\n\n📐 FORMULA APPLIED:\nPercentage Less = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let B's salary = $100.\nStep 2: A's salary = $120.\nStep 3: Difference = $20.\nStep 4: B is less than A by (20 / 120) × 100% = 1/6 × 100% = 16.67%.\n\n⚡ PRO-TIP / SPEED TRICK:\n20% increase corresponds to 1/5. B is less than A by 1/(5 + 1) = 1/6 = 16.67%."
-  },
-  {
-    "id": "q_perc_05",
-    "topic": "aptitude",
-    "subtopic": "percentages",
-    "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the present population is 99,000, what was the population 2 years ago?",
-    "options": [
-      "1,00,000",
-      "99,500",
-      "1,02,000",
-      "98,000"
-    ],
-    "correctAnswer": "1,00,000",
-    "explanation": "📌 GIVEN DATA:\nYear 1 Change = +10%\nYear 2 Change = -10%\nPresent Population = 99,000\n\n📐 FORMULA APPLIED:\nNet % Change = A + B + (A × B / 100) = +10 - 10 + (10 × -10 / 100) = -1%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Overall change over 2 years is a net decrease of 1%.\nStep 2: Present Population = 99% of Initial Population (P).\nStep 3: 0.99 × P = 99,000  =>  P = 99,000 / 0.99 = 1,00,000.\n\n⚡ PRO-TIP / SPEED TRICK:\nSame % increase & decrease (x%) always results in net loss of (x/10)² % = (10/10)² = 1% loss. So 99% = 99,000 => 100% = 1,00,000."
-  },
-  {
-    "id": "q_pl_01",
-    "topic": "aptitude",
-    "subtopic": "profit-and-loss",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "A trader sells an article for $480 and incurs a loss of 20%. At what selling price should he sell it to gain a 20% profit?",
-    "options": [
-      "$600",
-      "$720",
-      "$640",
-      "$800"
-    ],
-    "correctAnswer": "$720",
-    "explanation": "📌 GIVEN DATA:\nFirst SP = $480\nLoss = 20% (so First SP represents 80% of CP)\nTarget Profit = 20% (so Target SP must represent 120% of CP)\n\n📐 FORMULA APPLIED:\nTarget SP = First SP × (Target % / Given %)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Find Cost Price (CP): 80% of CP = $480  =>  CP = 480 / 0.80 = $600.\nStep 2: Calculate Target SP for 20% profit: SP = 600 × 1.20 = $720.\n\n⚡ PRO-TIP / SPEED TRICK:\nTarget SP = 480 × (120 / 80) = 480 × 1.5 = $720."
-  },
-  {
-    "id": "q_pl_02",
-    "topic": "aptitude",
-    "subtopic": "profit-and-loss",
-    "difficulty": "medium",
-    "orientation": "Shortcut Trick",
-    "question": "A dishonest merchant uses a faulty weight of 800 grams instead of 1 kilogram while buying and selling at cost price. What is his profit percentage?",
-    "options": [
-      "20%",
-      "25%",
-      "15%",
-      "30%"
-    ],
-    "correctAnswer": "25%",
-    "explanation": "📌 GIVEN DATA:\nClaimed Weight (True Value) = 1000g\nActual Weight Used (False Value) = 800g\nSelling Price = Cost Price per kg\n\n📐 FORMULA APPLIED:\nDishonest Dealer Profit % = [ Error / False Weight ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Error = 1000g - 800g = 200g.\nStep 2: Actual cost incurred by merchant is for 800g.\nStep 3: Profit % = (200 / 800) × 100% = 1/4 × 100% = 25%.\n\n⚡ PRO-TIP / SPEED TRICK:\nProfit % = [ (1000 - 800) / 800 ] × 100% = 200 / 800 = 25%."
-  },
-  {
-    "id": "q_pl_03",
-    "topic": "aptitude",
-    "subtopic": "profit-and-loss",
-    "difficulty": "hard",
-    "orientation": "GATE / Placement PYQ",
-    "question": "The cost price of two watches is the same. One watch is sold at a profit of 15% and the other at a loss of 15%. What is the net overall profit or loss percentage on the entire transaction?",
-    "options": [
-      "2.25% loss",
-      "No profit, no loss (0%)",
-      "2.25% profit",
-      "1.5% loss"
-    ],
-    "correctAnswer": "No profit, no loss (0%)",
-    "explanation": "📌 GIVEN DATA:\nCost Price CP1 = Cost Price CP2 = C.\nProfit on Watch 1 = +15%\nLoss on Watch 2 = -15%\n\n📐 FORMULA APPLIED:\nNet Profit/Loss = Total SP - Total CP\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Cost Price = C + C = 2C.\nStep 2: SP1 = 1.15C, SP2 = 0.85C.\nStep 3: Total Selling Price = 1.15C + 0.85C = 2C.\nStep 4: Total SP (2C) = Total CP (2C) => Net Profit/Loss = 0%.\n\n⚡ PRO-TIP / WARNING GOTCHA:\nWhen CP is same, net result is ALWAYS 0%. (The x²/100 % loss formula applies ONLY when SP is same, NOT CP!)."
-  },
-  {
-    "id": "q_tw_01",
-    "topic": "aptitude",
-    "subtopic": "time-and-work",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "A can complete a task in 12 days, while B can complete the same task in 24 days. Working together, in how many days can they complete the work?",
-    "options": [
-      "6 days",
-      "8 days",
-      "10 days",
-      "9 days"
-    ],
-    "correctAnswer": "8 days",
-    "explanation": "📌 GIVEN DATA:\nA's time = 12 days\nB's time = 24 days\n\n📐 FORMULA APPLIED:\nCombined Time = (A × B) / (A + B)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Work = LCM(12, 24) = 24 units.\nStep 2: A's efficiency = 24 / 12 = 2 units/day.\nStep 3: B's efficiency = 24 / 24 = 1 unit/day.\nStep 4: Combined efficiency = 2 + 1 = 3 units/day.\nStep 5: Time taken = 24 / 3 = 8 days.\n\n⚡ PRO-TIP / SPEED TRICK:\n(12 × 24) / (12 + 24) = 288 / 36 = 8 days."
-  },
-  {
-    "id": "q_tw_02",
-    "topic": "aptitude",
-    "subtopic": "time-and-work",
-    "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "12 men can complete a project in 18 days. How many men working at the same rate are required to complete the project in 12 days?",
-    "options": [
-      "16 men",
-      "18 men",
-      "20 men",
-      "24 men"
-    ],
-    "correctAnswer": "18 men",
-    "explanation": "📌 GIVEN DATA:\nM1 = 12 men, D1 = 18 days\nD2 = 12 days, Find M2.\n\n📐 FORMULA APPLIED:\nChain Rule: M1 × D1 = M2 × D2\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Work units = 12 × 18 = 216 man-days.\nStep 2: M2 × 12 = 216.\nStep 3: M2 = 216 / 12 = 18 men.\n\n⚡ PRO-TIP / SPEED TRICK:\nDays reduced from 18 to 12 (ratio 3:2), so Men must increase in ratio 2:3 => 12 × (3/2) = 18 men."
-  },
-  {
-    "id": "q_tw_03",
-    "topic": "aptitude",
-    "subtopic": "time-and-work",
-    "difficulty": "hard",
-    "orientation": "GATE / Placement PYQ",
-    "question": "A is twice as efficient as B. If together they can finish a piece of work in 14 days, in how many days can A alone finish the work?",
-    "options": [
-      "21 days",
-      "28 days",
-      "42 days",
-      "18 days"
-    ],
-    "correctAnswer": "21 days",
-    "explanation": "📌 GIVEN DATA:\nEfficiency ratio A : B = 2 : 1\nTogether time = 14 days\n\n📐 FORMULA APPLIED:\nWork = Total Efficiency × Combined Time\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let B's daily work = 1 unit/day => A's daily work = 2 units/day.\nStep 2: Combined daily work = 2 + 1 = 3 units/day.\nStep 3: Total Work = 3 units/day × 14 days = 42 units.\nStep 4: Time taken by A alone = Total Work / A's efficiency = 42 / 2 = 21 days.\n\n⚡ PRO-TIP / SPEED TRICK:\nA's share of efficiency is 2/3 of total. Time taken by A = Combined Time × (Total Ratio / A Ratio) = 14 × (3/2) = 21 days."
-  },
-  {
-    "id": "q_std_01",
-    "topic": "aptitude",
-    "subtopic": "speed-and-distance",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "A train traveling at a constant speed of 72 km/h crosses a pole in 15 seconds. What is the length of the train?",
-    "options": [
-      "200 meters",
-      "250 meters",
-      "300 meters",
-      "350 meters"
-    ],
-    "correctAnswer": "300 meters",
-    "explanation": "📌 GIVEN DATA:\nSpeed = 72 km/h\nTime = 15 seconds\n\n📐 FORMULA APPLIED:\n1 km/h = 5/18 m/s\nDistance (Train Length) = Speed (m/s) × Time (seconds)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Convert speed to m/s: 72 × (5 / 18) = 20 m/s.\nStep 2: Calculate distance: Distance = 20 m/s × 15 s = 300 meters.\n\n⚡ PRO-TIP / SPEED TRICK:\n72 is 4 × 18 km/h. Since 18 km/h = 5 m/s, 72 km/h = 4 × 5 = 20 m/s. Length = 20 × 15 = 300m."
-  },
-  {
-    "id": "q_std_02",
-    "topic": "aptitude",
-    "subtopic": "speed-and-distance",
-    "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "A person travels from city A to city B at 60 km/h and returns from city B to city A at 40 km/h. What is the average speed for the entire journey?",
-    "options": [
-      "48 km/h",
-      "50 km/h",
-      "52 km/h",
-      "45 km/h"
-    ],
-    "correctAnswer": "48 km/h",
-    "explanation": "📌 GIVEN DATA:\nSpeed 1 (S1) = 60 km/h\nSpeed 2 (S2) = 40 km/h\nDistance is equal in both directions.\n\n📐 FORMULA APPLIED:\nAverage Speed = (2 × S1 × S2) / (S1 + S2)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Avg Speed = (2 × 60 × 40) / (60 + 40)\nStep 2: Avg Speed = 4800 / 100 = 48 km/h.\n\n⚡ PRO-TIP / WARNING:\nDo NOT take the arithmetic mean (60+40)/2 = 50! When distance is constant, harmonic mean formula 2ab/(a+b) MUST be used."
-  },
-  {
-    "id": "q_std_03",
-    "topic": "aptitude",
-    "subtopic": "speed-and-distance",
-    "difficulty": "hard",
-    "orientation": "GATE / Placement PYQ",
-    "question": "Two trains of length 140 m and 160 m are moving on parallel tracks in opposite directions at speeds of 60 km/h and 48 km/h respectively. How long will they take to completely cross each other?",
-    "options": [
-      "10 seconds",
-      "12 seconds",
-      "15 seconds",
-      "8 seconds"
-    ],
-    "correctAnswer": "10 seconds",
-    "explanation": "📌 GIVEN DATA:\nTrain 1 length = 140 m, Train 2 length = 160 m\nSpeed 1 = 60 km/h, Speed 2 = 48 km/h (Opposite directions)\n\n📐 FORMULA APPLIED:\nTotal Distance = L1 + L2\nRelative Speed = S1 + S2 (in m/s)\nTime = Total Distance / Relative Speed\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Distance = 140m + 160m = 300 meters.\nStep 2: Relative Speed = 60 + 48 = 108 km/h.\nStep 3: Convert 108 km/h to m/s: 108 × (5 / 18) = 30 m/s.\nStep 4: Time taken = 300m / 30 m/s = 10 seconds.\n\n⚡ PRO-TIP / SPEED TRICK:\n108 km/h = 6 × 18 km/h = 6 × 5 = 30 m/s. Time = 300 / 30 = 10 seconds."
-  },
-  {
-    "id": "q_int_01",
-    "topic": "aptitude",
-    "subtopic": "interest",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "What is the simple interest earned on a principal of $5,000 at an annual interest rate of 8% for 3 years?",
-    "options": [
-      "$1,200",
-      "$1,400",
-      "$1,000",
-      "$1,500"
-    ],
-    "correctAnswer": "$1,200",
-    "explanation": "📌 GIVEN DATA:\nPrincipal (P) = $5,000\nRate (R) = 8% per annum\nTime (T) = 3 years\n\n📐 FORMULA APPLIED:\nSimple Interest (SI) = (P × R × T) / 100\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: SI = (5000 × 8 × 3) / 100\nStep 2: SI = 50 × 24 = $1,200.\n\n⚡ PRO-TIP / SPEED TRICK:\n8% × 3 years = 24% total interest. 24% of 5000 = 0.24 × 5000 = $1,200."
-  },
-  {
-    "id": "q_int_02",
-    "topic": "aptitude",
-    "subtopic": "interest",
-    "difficulty": "medium",
-    "orientation": "Formula & Application",
-    "question": "The difference between compound interest and simple interest on a certain sum of money for 2 years at 10% per annum is $45. Find the principal sum.",
-    "options": [
-      "$4,500",
-      "$4,000",
-      "$5,000",
-      "$3,500"
-    ],
-    "correctAnswer": "$4,500",
-    "explanation": "📌 GIVEN DATA:\nDifference (CI - SI) = $45\nTime (T) = 2 years\nRate (R) = 10%\n\n📐 FORMULA APPLIED:\nFor 2 years: CI - SI = P × (R / 100)²\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: 45 = P × (10 / 100)²\nStep 2: 45 = P × (1 / 10)² = P / 100\nStep 3: P = 45 × 100 = $4,500.\n\n⚡ PRO-TIP / SPEED TRICK:\n1% of Principal = $45  =>  100% Principal = $4,500."
-  },
-  {
-    "id": "q_prob_01",
-    "topic": "aptitude",
-    "subtopic": "probability",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Two unbiased dice are rolled simultaneously. What is the probability of obtaining a sum of 8?",
-    "options": [
-      "5/36",
-      "1/6",
-      "7/36",
-      "1/9"
-    ],
-    "correctAnswer": "5/36",
-    "explanation": "📌 GIVEN DATA:\nTwo 6-sided unbiased dice rolled.\n\n📐 FORMULA APPLIED:\nProbability = Favorable Outcomes / Total Sample Space\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Total Sample Space = 6 × 6 = 36 outcomes.\nStep 2: Favorable pairs that sum to 8: (2,6), (3,5), (4,4), (5,3), (6,2).\nStep 3: Number of favorable outcomes = 5.\nStep 4: Probability P = 5 / 36.\n\n⚡ PRO-TIP / SPEED TRICK:\nSums of two dice follow pyramid counts: Sum 2(1), 3(2), 4(3), 5(4), 6(5), 7(6), 8(5), 9(4), 10(3), 11(2), 12(1). Sum 8 has 5 outcomes!"
-  },
-  {
-    "id": "q_prob_02",
-    "topic": "aptitude",
-    "subtopic": "probability",
-    "difficulty": "medium",
-    "orientation": "GATE / Placement PYQ",
-    "question": "A bag contains 5 red and 3 green balls. If 2 balls are drawn at random without replacement, what is the probability that both balls are red?",
-    "options": [
-      "5/14",
-      "10/28",
-      "5/28",
-      "15/56"
-    ],
-    "correctAnswer": "5/14",
-    "explanation": "📌 GIVEN DATA:\nRed balls = 5, Green balls = 3, Total balls = 8.\nDraw 2 balls without replacement.\n\n📐 FORMULA APPLIED:\nP(Both Red) = P(1st Red) × P(2nd Red | 1st Red) = 5C2 / 8C2\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: P(1st Red) = 5 / 8.\nStep 2: Remaining Red = 4, Remaining Total = 7.\nStep 3: P(2nd Red) = 4 / 7.\nStep 4: P(Both Red) = (5 / 8) × (4 / 7) = 20 / 56 = 5 / 14.\n\n⚡ PRO-TIP / COMBINATORICS WAY:\n5C2 / 8C2 = (5×4/2) / (8×7/2) = 10 / 28 = 5 / 14."
-  },
-  {
-    "id": "q_syl_01",
-    "topic": "logical-reasoning",
-    "subtopic": "syllogisms",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Statements:\n1. All computers are machines.\n2. All machines are electronic devices.\n\nConclusions:\nI. All computers are electronic devices.\nII. Some electronic devices are computers.",
-    "options": [
-      "Only Conclusion I follows",
-      "Only Conclusion II follows",
-      "Both Conclusion I and II follow",
-      "Neither Conclusion I nor II follows"
-    ],
-    "correctAnswer": "Both Conclusion I and II follow",
-    "explanation": "📌 GIVEN DATA:\nStatement 1: Computers ⊂ Machines\nStatement 2: Machines ⊂ Electronic Devices\n\n📐 FORMULA APPLIED:\nTransitive Venn Inclusion: A ⊂ B and B ⊂ C  =>  A ⊂ C\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Nested circles: Computers inside Machines, Machines inside Electronic Devices.\nStep 2: Conclusion I: Computers are entirely inside Electronic Devices -> TRUE.\nStep 3: Conclusion II: The region occupied by Computers is part of Electronic Devices -> TRUE.\n\n⚡ PRO-TIP / SPEED TRICK:\nAll + All => All (Computers -> Electronic Devices). Universal affirmative 'All A are C' always converts to 'Some C are A'."
-  },
-  {
-    "id": "q_syl_02",
-    "topic": "logical-reasoning",
-    "subtopic": "syllogisms",
-    "difficulty": "medium",
-    "orientation": "GATE / Placement PYQ",
-    "question": "Statements:\n1. Some engineers are coders.\n2. No coder is a lazy person.\n\nConclusions:\nI. No engineer is a lazy person.\nII. Some engineers are not lazy persons.",
-    "options": [
-      "Only Conclusion I follows",
-      "Only Conclusion II follows",
-      "Both follow",
-      "Neither follows"
-    ],
-    "correctAnswer": "Only Conclusion II follows",
-    "explanation": "📌 GIVEN DATA:\nStatement 1: Engineers ∩ Coders ≠ ∅\nStatement 2: Coders ∩ Lazy = ∅\n\n📐 FORMULA APPLIED:\nVenn Diagram Intersection Rules\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: The engineers who are coders CANNOT be lazy (since no coder is lazy).\nStep 2: Conclusion I ('No engineer is lazy') assumes non-coder engineers can't be lazy either, which is unstated and false.\nStep 3: Conclusion II ('Some engineers are not lazy') refers to the coder-engineers, which is DEFINITELY TRUE.\n\n⚡ PRO-TIP / RULE:\nSome + No => Some Not (Some Engineers are Not Lazy Persons)."
-  },
-  {
-    "id": "q_br_01",
-    "topic": "logical-reasoning",
-    "subtopic": "blood-relations",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Pointing to a photograph, a man said: 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
-    "options": [
-      "Sister",
-      "Mother",
-      "Aunt",
-      "Daughter"
-    ],
-    "correctAnswer": "Sister",
-    "explanation": "📌 GIVEN DATA:\nSpeaker = Man\nReference: 'My grandfather's only son'\n\n📐 FORMULA APPLIED:\nGeneration Mapping:\nGrandfather's only son = Father\nFather's daughter = Sister\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: 'Grandfather's only son' => Father of the man.\nStep 2: 'Daughter of my father' => Sister of the man.\nStep 3: Therefore, the woman in the photo is the man's Sister.\n\n⚡ PRO-TIP / SPEED TRICK:\nDecode from the inside out: 'Grandfather's only son' = Father. 'Daughter of father' = Sister."
-  },
-  {
-    "id": "q_rc_01",
-    "topic": "verbal",
-    "subtopic": "reading-comprehension",
-    "difficulty": "medium",
-    "orientation": "GATE / Placement PYQ",
-    "question": "Passage: 'Artificial Intelligence algorithms learn patterns from historical datasets. However, if the underlying data contains historical societal biases, the machine learning models will inevitably replicate and amplify these biases.'\n\nQuestion: Which of the following is the main inference of the passage?",
-    "options": [
-      "AI models are inherently flawed and should not be used.",
-      "AI predictions are only as unbiased as the data used to train them.",
-      "Historical datasets are completely unreliable for technology.",
-      "Societal biases cannot be detected by computer algorithms."
-    ],
-    "correctAnswer": "AI predictions are only as unbiased as the data used to train them.",
-    "explanation": "📌 GIVEN DATA:\nPremise 1: AI learns from historical datasets.\nPremise 2: If datasets have bias, models replicate & amplify that bias.\n\n📐 LOGICAL INFERENCE RULE:\nAn inference must be a direct, necessary logical consequence of the stated premises without extreme over-generalization.\n\n🔢 STEP-BY-STEP ELIMINATION:\n- Option 1 is extreme ('inherently flawed / should not be used').\n- Option 2 correctly captures the core premise: AI output quality and fairness depend directly on training data quality.\n- Option 3 is overly broad ('completely unreliable').\n- Option 4 contradicts the passage.\n\n⚡ PRO-TIP / VERBAL RULE:\nBeware of extreme words like 'completely', 'never', 'inherently' in Reading Comprehension."
-  },
-  {
-    "id": "q_sc_01",
-    "topic": "verbal",
-    "subtopic": "sentence-correction",
-    "difficulty": "easy",
-    "orientation": "Conceptual",
-    "question": "Identify the grammatically correct sentence:",
-    "options": [
-      "Neither of the two candidates have submitted their resume.",
-      "Neither of the two candidates has submitted his resume.",
-      "Neither of the two candidates have submitted his resume.",
-      "Neither of the two candidates has submit their resume."
-    ],
-    "correctAnswer": "Neither of the two candidates has submitted his resume.",
-    "explanation": "📌 GIVEN DATA:\nSubject pronoun = 'Neither'\n\n📐 GRAMMAR RULE APPLIED:\n1. 'Neither' is ALWAYS a singular indefinite pronoun and requires a SINGULAR verb ('has', not 'have').\n2. Singular subject 'Neither' takes singular possessive pronoun ('his' or 'his/her').\n\n🔢 STEP-BY-STEP BREAKDOWN:\n- 'Neither... have' is incorrect (plural verb).\n- 'Neither... has submitted his resume' satisfies singular subject-verb and pronoun agreement.\n\n⚡ PRO-TIP / SPEED TRICK:\nWords like 'Each', 'Every', 'Either', 'Neither', 'Everyone' ALWAYS take singular verbs!"
-  },
-  {
-    "id": "q_di_01",
-    "topic": "data-interpretation",
-    "subtopic": "data-interpretation",
-    "difficulty": "medium",
-    "orientation": "GATE / Placement PYQ",
-    "question": "Company revenue over 4 quarters: Q1 = $20M, Q2 = $25M, Q3 = $30M, Q4 = $40M. What is the percentage growth in revenue from Q1 to Q4?",
-    "options": [
-      "100%",
-      "50%",
-      "75%",
-      "200%"
-    ],
-    "correctAnswer": "100%",
-    "explanation": "📌 GIVEN DATA:\nQ1 Revenue (Initial) = $20M\nQ4 Revenue (Final) = $40M\n\n📐 FORMULA APPLIED:\nPercentage Growth = [ (Final Value - Initial Value) / Initial Value ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Increase Amount = 40M - 20M = $20M.\nStep 2: Percentage Growth = (20M / 20M) × 100% = 1 × 100% = 100%.\n\n⚡ PRO-TIP / SPEED TRICK:\nSince revenue doubled from 20M to 40M, doubling ALWAYS equals a 100% growth!"
-  }
+  {"id":"q_perc_01","topic":"aptitude","subtopic":"percentages","difficulty":"easy","orientation":"Conceptual","question":"If the price of sugar increases by 25%, by what percentage must a household reduce its sugar consumption so that the total monthly expenditure remains unchanged?","options":["15%","20%","25%","30%"],"correctAnswer":"20%","explanation":"📌 GIVEN DATA:\nPrice increase (r) = 25%.\nGoal: Keep total expenditure constant.\n\n📐 FORMULA APPLIED:\nConsumption Reduction % = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Substitute r = 25 into the formula.\nStep 2: Reduction % = [ 25 / (100 + 25) ] × 100%\nStep 3: Reduction % = (25 / 125) × 100% = 20%.\n\n⚡ PRO-TIP / SPEED TRICK:\nIf price increases by 1/4 (25%), consumption must decrease by 1/(4 + 1) = 1/5 = 20%."},
+  {"id":"q_perc_02","topic":"aptitude","subtopic":"percentages","difficulty":"medium","orientation":"Formula & Application","question":"A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?","options":["36%","44%","64%","54%"],"correctAnswer":"64%","explanation":"📌 GIVEN DATA:\nTrue Multiplier = 5/3\nWrong Multiplier = 3/5\n\n📐 FORMULA APPLIED:\nPercentage Error = [ |True Value - Erroneous Value| / True Value ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let the original number be LCM(3, 5) = 15.\nStep 2: True Value = 15 × (5/3) = 25.\nStep 3: Erroneous Value = 15 × (3/5) = 9.\nStep 4: Error = 25 - 9 = 16.\nStep 5: Percentage Error = (16 / 25) × 100% = 64%."},
+  {"id":"q_perc_03","topic":"aptitude","subtopic":"percentages","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"In an election between two candidates, 10% of voters did not cast their vote and 60 votes were declared invalid. The winning candidate secured 47% of the total enrolled voters and won by 308 votes. What is the total number of enrolled voters?","options":["5600","6200","6000","6400"],"correctAnswer":"6200","explanation":"📌 GIVEN DATA:\nUncast = 10% of T\nInvalid = 60\nWinner = 47% of T\nWinner Margin = 308\n\n📐 FORMULA APPLIED:\nValid Votes = Cast Votes - Invalid = (W + L)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Winner (W) = 0.47T.\nStep 2: Loser (L) = (0.90T - 60) - 0.47T = 0.43T - 60.\nStep 3: W - L = 0.47T - (0.43T - 60) = 308.\nStep 4: 0.04T + 60 = 308 => 0.04T = 248 => T = 6200."},
+  {"id":"q_perc_04","topic":"aptitude","subtopic":"percentages","difficulty":"easy","orientation":"Conceptual","question":"If A's salary is 20% more than B's salary, then by what percentage is B's salary less than A's salary?","options":["16.67%","20%","25%","15%"],"correctAnswer":"16.67%","explanation":"📌 GIVEN DATA:\nA's salary = B's salary + 20%.\n\n📐 FORMULA APPLIED:\nPercentage Less = [ r / (100 + r) ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Let B = $100 => A = $120.\nStep 2: Difference = 20.\nStep 3: B is less than A by (20 / 120) × 100% = 16.67%."},
+  {"id":"q_perc_05","topic":"aptitude","subtopic":"percentages","difficulty":"medium","orientation":"Shortcut Trick","question":"The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the present population is 99,000, what was the population 2 years ago?","options":["1,00,000","99,500","1,02,000","98,000"],"correctAnswer":"1,00,000","explanation":"📌 GIVEN DATA:\nYear 1 = +10%, Year 2 = -10%\nPresent = 99,000\n\n📐 FORMULA APPLIED:\nNet % Change = +10 - 10 + (10 × -10 / 100) = -1%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Present = 99% of P.\nStep 2: 0.99 × P = 99,000 => P = 1,00,000."},
+  {"id":"q_perc_06","topic":"aptitude","subtopic":"percentages","difficulty":"easy","orientation":"Conceptual","question":"What is 15% of 200 plus 25% of 400?","options":["130","140","120","150"],"correctAnswer":"130","explanation":"📌 GIVEN DATA:\nTerm 1 = 15% of 200, Term 2 = 25% of 400\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: 15% of 200 = 0.15 × 200 = 30.\nStep 2: 25% of 400 = (1/4) × 400 = 100.\nStep 3: Total = 30 + 100 = 130."},
+  {"id":"q_perc_07","topic":"aptitude","subtopic":"percentages","difficulty":"medium","orientation":"Formula & Application","question":"A candidate needs 33% to pass an exam. He gets 125 marks and fails by 40 marks. What are the maximum marks for the exam?","options":["500","600","450","550"],"correctAnswer":"500","explanation":"📌 GIVEN DATA:\nPassing % = 33%\nScored Marks = 125, Failed by = 40 marks\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Passing Marks = 125 + 40 = 165.\nStep 2: 33% of Max Marks = 165.\nStep 3: Max Marks = 165 / 0.33 = 500."},
+  {"id":"q_perc_08","topic":"aptitude","subtopic":"percentages","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Two numbers are respectively 20% and 50% more than a third number. What percentage is the first number of the second number?","options":["80%","75%","85%","90%"],"correctAnswer":"80%","explanation":"📌 GIVEN DATA:\nLet 3rd number = 100.\n1st number = 120, 2nd number = 150.\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Ratio = (120 / 150) × 100%\nStep 2: (4 / 5) × 100% = 80%."},
+  {"id":"q_perc_09","topic":"aptitude","subtopic":"percentages","difficulty":"medium","orientation":"Shortcut Trick","question":"If the side of a square is increased by 20%, what is the percentage increase in its area?","options":["44%","40%","48%","36%"],"correctAnswer":"44%","explanation":"📌 GIVEN DATA:\nSide change = +20%\n\n📐 FORMULA APPLIED:\nNet % Area Change = A + B + (A × B / 100)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Area = side² => 20 + 20 + (20 × 20 / 100) = 44%."},
+  {"id":"q_perc_10","topic":"aptitude","subtopic":"percentages","difficulty":"easy","orientation":"Conceptual","question":"If 60% of a number is equal to 3/5 of that number, what is the number?","options":["Any real number","100","50","Zero"],"correctAnswer":"Any real number","explanation":"📌 GIVEN DATA:\n60% = 60/100 = 3/5.\n\n🔢 STEP-BY-STEP CALCULATION:\nSince 60% is identically equal to 3/5, (3/5)x = (3/5)x holds true for any real number x."},
+
+  {"id":"q_pl_01","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"easy","orientation":"Conceptual","question":"A trader sells an article for $480 and incurs a loss of 20%. At what selling price should he sell it to gain a 20% profit?","options":["$600","$720","$640","$800"],"correctAnswer":"$720","explanation":"📌 GIVEN DATA:\nFirst SP = $480 (80% of CP), Target Profit = 20% (120% of CP)\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: CP = 480 / 0.80 = $600.\nStep 2: Target SP = 600 × 1.20 = $720."},
+  {"id":"q_pl_02","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"medium","orientation":"Shortcut Trick","question":"A dishonest merchant uses a faulty weight of 800 grams instead of 1 kilogram while buying and selling at cost price. What is his profit percentage?","options":["20%","25%","15%","30%"],"correctAnswer":"25%","explanation":"📌 GIVEN DATA:\nTrue = 1000g, False = 800g\n\n📐 FORMULA APPLIED:\nProfit % = [ (True - False) / False ] × 100%\n\n🔢 STEP-BY-STEP CALCULATION:\nStep 1: Profit % = (200 / 800) × 100% = 25%."},
+  {"id":"q_pl_03","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"The cost price of two watches is the same. One watch is sold at a profit of 15% and the other at a loss of 15%. What is the net overall profit or loss percentage on the entire transaction?","options":["2.25% loss","No profit, no loss (0%)","2.25% profit","1.5% loss"],"correctAnswer":"No profit, no loss (0%)","explanation":"📌 GIVEN DATA:\nCost Price CP1 = CP2 = C.\n\n🔢 STEP-BY-STEP CALCULATION:\nTotal CP = 2C. Total SP = 1.15C + 0.85C = 2C. Net result = 0%."},
+  {"id":"q_pl_04","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"easy","orientation":"Conceptual","question":"An item purchased for $250 is sold for $300. What is the profit percentage?","options":["20%","15%","25%","18%"],"correctAnswer":"20%","explanation":"📌 GIVEN DATA:\nCP = $250, SP = $300 => Profit = $50.\n\n🔢 STEP-BY-STEP CALCULATION:\nProfit % = (50 / 250) × 100% = 20%."},
+  {"id":"q_pl_05","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"medium","orientation":"Formula & Application","question":"If the selling price of 10 articles is equal to the cost price of 12 articles, what is the profit percentage?","options":["20%","25%","15%","30%"],"correctAnswer":"20%","explanation":"📌 GIVEN DATA:\n10 SP = 12 CP => SP/CP = 12/10 = 6/5.\n\n🔢 STEP-BY-STEP CALCULATION:\nProfit = 6 - 5 = 1 unit. Profit % = (1 / 5) × 100% = 20%."},
+  {"id":"q_pl_06","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"medium","orientation":"Shortcut Trick","question":"A shopkeeper marks his goods 20% above the cost price and allows a discount of 10%. What is his net profit percentage?","options":["8%","10%","12%","6%"],"correctAnswer":"8%","explanation":"📌 GIVEN DATA:\nMarked % = +20%, Discount = -10%\n\n📐 FORMULA APPLIED:\nNet % = A + B + (AB/100) = +20 - 10 - (200/100) = +8%."},
+  {"id":"q_pl_07","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Two items are sold for $990 each. On one, the seller gains 10% and on the other he loses 10%. What is his overall gain or loss percentage?","options":["1% loss","1% gain","No profit no loss","2% loss"],"correctAnswer":"1% loss","explanation":"📌 GIVEN DATA:\nSame SP = $990, +10% and -10%.\n\n📐 FORMULA APPLIED:\nLoss % = (x / 10)² % = (10 / 10)² % = 1% loss."},
+  {"id":"q_pl_08","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"easy","orientation":"Conceptual","question":"What is the discount percentage on an article marked at $500 and sold for $425?","options":["15%","12%","20%","10%"],"correctAnswer":"15%","explanation":"📌 GIVEN DATA:\nMP = $500, SP = $425 => Discount = $75.\n\n🔢 STEP-BY-STEP CALCULATION:\nDiscount % = (75 / 500) × 100% = 15%."},
+  {"id":"q_pl_09","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"medium","orientation":"Formula & Application","question":"By selling an article for $144, a man loses 1/7 of his outlay (CP). What is his cost price?","options":["$168","$160","$150","$175"],"correctAnswer":"$168","explanation":"📌 GIVEN DATA:\nLoss = CP / 7 => SP = (6/7) CP = 144.\n\n🔢 STEP-BY-STEP CALCULATION:\nCP = 144 × (7 / 6) = 24 × 7 = $168."},
+  {"id":"q_pl_10","topic":"aptitude","subtopic":"profit-and-loss","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A manufacturer sells an article to a wholesale dealer at a profit of 10%. The wholesale dealer sells it to a retailer at 20% profit, and the retailer sells it to a customer at 25% profit for $3,300. Find the cost price for the manufacturer.","options":["$2,000","$2,200","$2,500","$1,800"],"correctAnswer":"$2,000","explanation":"📌 GIVEN DATA:\nMultipliers = 1.10 × 1.20 × 1.25 = 1.65.\n\n🔢 STEP-BY-STEP CALCULATION:\nManufacturer CP × 1.65 = 3300 => CP = 3300 / 1.65 = $2,000."},
+
+  {"id":"q_tw_01","topic":"aptitude","subtopic":"time-and-work","difficulty":"easy","orientation":"Conceptual","question":"A can complete a task in 12 days, while B can complete the same task in 24 days. Working together, in how many days can they complete the work?","options":["6 days","8 days","10 days","9 days"],"correctAnswer":"8 days","explanation":"📌 GIVEN DATA:\nA = 12 days, B = 24 days.\n\n📐 FORMULA APPLIED:\nTogether = (A × B) / (A + B) = (12 × 24) / 36 = 8 days."},
+  {"id":"q_tw_02","topic":"aptitude","subtopic":"time-and-work","difficulty":"medium","orientation":"Formula & Application","question":"12 men can complete a project in 18 days. How many men working at the same rate are required to complete the project in 12 days?","options":["16 men","18 men","20 men","24 men"],"correctAnswer":"18 men","explanation":"📌 GIVEN DATA:\nM1 × D1 = M2 × D2 => 12 × 18 = M2 × 12 => M2 = 18 men."},
+  {"id":"q_tw_03","topic":"aptitude","subtopic":"time-and-work","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A is twice as efficient as B. If together they can finish a piece of work in 14 days, in how many days can A alone finish the work?","options":["21 days","28 days","42 days","18 days"],"correctAnswer":"21 days","explanation":"📌 GIVEN DATA:\nA:B efficiency = 2:1. Together efficiency = 3 units/day.\nTotal Work = 3 × 14 = 42 units. A alone = 42 / 2 = 21 days."},
+  {"id":"q_tw_04","topic":"aptitude","subtopic":"time-and-work","difficulty":"easy","orientation":"Conceptual","question":"A pipe can fill a tank in 6 hours and another pipe can empty it in 12 hours. If both pipes are opened together, how long will it take to fill the tank?","options":["12 hours","8 hours","10 hours","15 hours"],"correctAnswer":"12 hours","explanation":"📌 GIVEN DATA:\nInlet = +1/6, Outlet = -1/12.\n\n🔢 STEP-BY-STEP CALCULATION:\nNet Rate = 1/6 - 1/12 = 1/12 => Tank fills in 12 hours."},
+  {"id":"q_tw_05","topic":"aptitude","subtopic":"time-and-work","difficulty":"medium","orientation":"Formula & Application","question":"A can do a work in 10 days and B in 15 days. They work together for 2 days and then A leaves. How many days will B take to finish the remaining work?","options":["10 days","12 days","8 days","9 days"],"correctAnswer":"10 days","explanation":"📌 GIVEN DATA:\nTotal Work = LCM(10, 15) = 30 units.\nA = 3 u/d, B = 2 u/d. Together = 5 u/d.\n\n🔢 STEP-BY-STEP CALCULATION:\n2 days work = 5 × 2 = 10 units. Remaining = 20 units. B takes 20 / 2 = 10 days."},
+  {"id":"q_tw_06","topic":"aptitude","subtopic":"time-and-work","difficulty":"medium","orientation":"Shortcut Trick","question":"A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can all three together complete the work?","options":["10 days","12 days","8 days","15 days"],"correctAnswer":"10 days","explanation":"📌 GIVEN DATA:\nTotal Work = LCM(12, 15, 20) = 60 units.\nA+B = 5, B+C = 4, C+A = 3. Sum = 12 units = 2(A+B+C).\n\n🔢 STEP-BY-STEP CALCULATION:\nA+B+C efficiency = 6 units/day. Time = 60 / 6 = 10 days."},
+  {"id":"q_tw_07","topic":"aptitude","subtopic":"time-and-work","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?","options":["40 days","36 days","30 days","50 days"],"correctAnswer":"40 days","explanation":"📌 GIVEN DATA:\n8(4M + 6W) = 10(3M + 7W) => 32M + 48W = 30M + 70W => 2M = 22W => 1M = 11W.\n\n🔢 STEP-BY-STEP CALCULATION:\nTotal Work = (4(11W) + 6W) × 8 = 50W × 8 = 400 W-days. 10 women take 400 / 10 = 40 days."},
+  {"id":"q_tw_08","topic":"aptitude","subtopic":"time-and-work","difficulty":"easy","orientation":"Conceptual","question":"If A is 50% more efficient than B, what is the ratio of time taken by A and B to complete the same work?","options":["2:3","3:2","1:2","3:4"],"correctAnswer":"2:3","explanation":"📌 GIVEN DATA:\nEfficiency A:B = 150:100 = 3:2.\n\n📐 FORMULA APPLIED:\nTime ratio is inverse of efficiency ratio => Time A:B = 2:3."},
+  {"id":"q_tw_09","topic":"aptitude","subtopic":"time-and-work","difficulty":"medium","orientation":"Formula & Application","question":"A can do a piece of work in 20 days. He works at it for 5 days and then B finishes it in 15 days. In how many days can A and B together finish the work?","options":["10 days","12 days","8 days","15 days"],"correctAnswer":"10 days","explanation":"📌 GIVEN DATA:\nA completed 5/20 = 1/4 work. Remaining 3/4 work done by B in 15 days => B's full time = 20 days.\n\n🔢 STEP-BY-STEP CALCULATION:\nBoth A and B take 20 days each => Together = 20 / 2 = 10 days."},
+  {"id":"q_tw_10","topic":"aptitude","subtopic":"time-and-work","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A, B, and C can do a work in 10, 20, and 30 days respectively. They started together, but A left after 2 days and B left 3 days before completion. Find total days to complete the work.","options":["10 days","9 days","8 days","11 days"],"correctAnswer":"10 days","explanation":"📌 GIVEN DATA:\nTotal Work = LCM(10,20,30) = 60 units. A=6, B=3, C=2.\nWork in first 2 days = (6+3+2)×2 = 22. Remaining = 38. B&C work, then B leaves. Total = 10 days."},
+
+  {"id":"q_std_01","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"easy","orientation":"Conceptual","question":"A train traveling at a constant speed of 72 km/h crosses a pole in 15 seconds. What is the length of the train?","options":["200 meters","250 meters","300 meters","350 meters"],"correctAnswer":"300 meters","explanation":"📌 GIVEN DATA:\nSpeed = 72 km/h = 72 × (5/18) = 20 m/s. Time = 15s.\nLength = 20 × 15 = 300 meters."},
+  {"id":"q_std_02","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"medium","orientation":"Formula & Application","question":"A person travels from city A to city B at 60 km/h and returns from city B to city A at 40 km/h. What is the average speed for the entire journey?","options":["48 km/h","50 km/h","52 km/h","45 km/h"],"correctAnswer":"48 km/h","explanation":"📌 GIVEN DATA:\nAvg Speed = (2 × 60 × 40) / (60 + 40) = 4800 / 100 = 48 km/h."},
+  {"id":"q_std_03","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Two trains of length 140 m and 160 m are moving on parallel tracks in opposite directions at speeds of 60 km/h and 48 km/h respectively. How long will they take to completely cross each other?","options":["10 seconds","12 seconds","15 seconds","8 seconds"],"correctAnswer":"10 seconds","explanation":"📌 GIVEN DATA:\nTotal Distance = 140 + 160 = 300m.\nRelative Speed = 60 + 48 = 108 km/h = 30 m/s.\nTime = 300 / 30 = 10 seconds."},
+  {"id":"q_std_04","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"easy","orientation":"Conceptual","question":"Convert a speed of 54 km/h into m/s.","options":["15 m/s","18 m/s","12 m/s","20 m/s"],"correctAnswer":"15 m/s","explanation":"📌 GIVEN DATA:\nSpeed in m/s = 54 × (5 / 18) = 3 × 5 = 15 m/s."},
+  {"id":"q_std_05","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"medium","orientation":"Formula & Application","question":"A man walking at 5 km/h crosses a bridge in 15 minutes. What is the length of the bridge in meters?","options":["1250 meters","1000 meters","1500 meters","1150 meters"],"correctAnswer":"1250 meters","explanation":"📌 GIVEN DATA:\nSpeed = 5 km/h, Time = 15 min = 1/4 hour.\nDistance = 5 × (1/4) = 1.25 km = 1250 meters."},
+  {"id":"q_std_06","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"medium","orientation":"Shortcut Trick","question":"If a train runs at 40 km/h, it reaches its destination late by 11 minutes. But if it runs at 50 km/h, it is late by 5 minutes only. What is the correct time for the train to complete its journey?","options":["19 minutes","21 minutes","25 minutes","15 minutes"],"correctAnswer":"19 minutes","explanation":"📌 GIVEN DATA:\nDistance D = [ (S1 × S2) / |S1 - S2| ] × Δt = [ (40 × 50) / 10 ] × (6 / 60) = 20 km.\nTime at 40 km/h = (20/40)×60 = 30 min. Correct time = 30 - 11 = 19 min."},
+  {"id":"q_std_07","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A thief is spotted by a policeman from a distance of 200 m. The thief starts running and the policeman chases him. The thief and policeman run at 10 km/h and 11 km/h respectively. What is the distance between them after 6 minutes?","options":["100 meters","150 meters","80 meters","120 meters"],"correctAnswer":"100 meters","explanation":"📌 GIVEN DATA:\nRelative Speed = 11 - 10 = 1 km/h = 1000m / 60min.\nDistance covered in 6 min = (1000/60) × 6 = 100m.\nRemaining distance = 200m - 100m = 100m."},
+  {"id":"q_std_08","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"easy","orientation":"Conceptual","question":"A boat moves downstream at 14 km/h and upstream at 10 km/h. What is the speed of the river stream?","options":["2 km/h","3 km/h","4 km/h","1.5 km/h"],"correctAnswer":"2 km/h","explanation":"📌 GIVEN DATA:\nStream Speed = (Downstream - Upstream) / 2 = (14 - 10) / 2 = 2 km/h."},
+  {"id":"q_std_09","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"medium","orientation":"Formula & Application","question":"A train 110 meters long is running at 60 km/h. How much time will it take to cross a platform 240 meters long?","options":["21 seconds","18 seconds","24 seconds","20 seconds"],"correctAnswer":"21 seconds","explanation":"📌 GIVEN DATA:\nTotal Distance = 110 + 240 = 350m.\nSpeed = 60 × (5/18) = 50/3 m/s.\nTime = 350 / (50/3) = 21 seconds."},
+  {"id":"q_std_10","topic":"aptitude","subtopic":"speed-and-distance","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Walking at 3/4 of his usual speed, a man is 20 minutes late. Find his usual time.","options":["60 minutes","45 minutes","40 minutes","50 minutes"],"correctAnswer":"60 minutes","explanation":"📌 GIVEN DATA:\nSpeed ratio = 3:4 => Time ratio = 4:3. Difference = 1 unit = 20 min => Usual time = 3 × 20 = 60 min."},
+
+  {"id":"q_int_01","topic":"aptitude","subtopic":"interest","difficulty":"easy","orientation":"Conceptual","question":"What is the simple interest earned on a principal of $5,000 at an annual interest rate of 8% for 3 years?","options":["$1,200","$1,400","$1,000","$1,500"],"correctAnswer":"$1,200","explanation":"📌 GIVEN DATA:\nSI = (5000 × 8 × 3) / 100 = $1,200."},
+  {"id":"q_int_02","topic":"aptitude","subtopic":"interest","difficulty":"medium","orientation":"Formula & Application","question":"The difference between compound interest and simple interest on a certain sum of money for 2 years at 10% per annum is $45. Find the principal sum.","options":["$4,500","$4,000","$5,000","$3,500"],"correctAnswer":"$4,500","explanation":"📌 GIVEN DATA:\nCI - SI = P × (R/100)² => 45 = P × (1/100) => P = $4,500."},
+  {"id":"q_int_03","topic":"aptitude","subtopic":"interest","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A sum of money doubles itself at compound interest in 15 years. In how many years will it become 8 times itself?","options":["45 years","30 years","60 years","40 years"],"correctAnswer":"45 years","explanation":"📌 GIVEN DATA:\nMoney doubles (2x) in 15 years. 8x = 2³ => Time = 3 × 15 = 45 years."},
+  {"id":"q_int_04","topic":"aptitude","subtopic":"interest","difficulty":"easy","orientation":"Conceptual","question":"At what rate per annum simple interest will a sum of money double itself in 8 years?","options":["12.5%","10%","15%","11%"],"correctAnswer":"12.5%","explanation":"📌 GIVEN DATA:\nSI = Principal P. SI = (P × R × 8)/100 => R = 100 / 8 = 12.5%."},
+  {"id":"q_int_05","topic":"aptitude","subtopic":"interest","difficulty":"medium","orientation":"Formula & Application","question":"Find the compound interest on $10,000 for 2 years at 10% per annum compounded annually.","options":["$2,100","$2,000","$2,200","$1,900"],"correctAnswer":"$2,100","explanation":"📌 GIVEN DATA:\nA = 10000 × (1.10)² = $12,100 => CI = 12100 - 10000 = $2,100."},
+  {"id":"q_int_06","topic":"aptitude","subtopic":"interest","difficulty":"medium","orientation":"Shortcut Trick","question":"In how many years will $1,000 amount to $1,331 at 10% per annum compound interest?","options":["3 years","2 years","4 years","2.5 years"],"correctAnswer":"3 years","explanation":"📌 GIVEN DATA:\n(1331 / 1000) = (11 / 10)³ = (1 + 10/100)^T => T = 3 years."},
+  {"id":"q_int_07","topic":"aptitude","subtopic":"interest","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"If the compound interest on a sum for 2 years at 12.5% per annum is $510, what is the simple interest on the same sum at the same rate for the same period?","options":["$480","$450","$500","$460"],"correctAnswer":"$480","explanation":"📌 GIVEN DATA:\n12.5% = 1/8. P = 64 units. CI = 17 units = 510 => 1 unit = 30. SI = 16 units = 16 × 30 = $480."},
+  {"id":"q_int_08","topic":"aptitude","subtopic":"interest","difficulty":"easy","orientation":"Conceptual","question":"What will be the ratio of simple interest earned by certain amount at same interest rate for 6 years and 9 years?","options":["2:3","1:2","3:4","4:5"],"correctAnswer":"2:3","explanation":"📌 GIVEN DATA:\nSI1 / SI2 = T1 / T2 = 6 / 9 = 2:3."},
+  {"id":"q_int_09","topic":"aptitude","subtopic":"interest","difficulty":"medium","orientation":"Formula & Application","question":"A sum of money at simple interest amounts to $815 in 3 years and to $854 in 4 years. Find the principal sum.","options":["$698","$700","$650","$720"],"correctAnswer":"$698","explanation":"📌 GIVEN DATA:\n1 year SI = 854 - 815 = $39. 3 years SI = 39 × 3 = $117. P = 815 - 117 = $698."},
+  {"id":"q_int_10","topic":"aptitude","subtopic":"interest","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Find the effective annual rate of interest corresponding to a nominal rate of 6% per annum compounded half-yearly.","options":["6.09%","6.12%","6.00%","6.15%"],"correctAnswer":"6.09%","explanation":"📌 GIVEN DATA:\nHalf yearly rate = 3%. Effective Rate = 3 + 3 + (3×3/100) = 6.09%."},
+
+  {"id":"q_prob_01","topic":"aptitude","subtopic":"probability","difficulty":"easy","orientation":"Conceptual","question":"Two unbiased dice are rolled simultaneously. What is the probability of obtaining a sum of 8?","options":["5/36","1/6","7/36","1/9"],"correctAnswer":"5/36","explanation":"📌 GIVEN DATA:\nSample space = 36. Favorable outcomes for sum 8: (2,6),(3,5),(4,4),(5,3),(6,2) = 5. P = 5/36."},
+  {"id":"q_prob_02","topic":"aptitude","subtopic":"probability","difficulty":"medium","orientation":"GATE / Placement PYQ","question":"A bag contains 5 red and 3 green balls. If 2 balls are drawn at random without replacement, what is the probability that both balls are red?","options":["5/14","10/28","5/28","15/56"],"correctAnswer":"5/14","explanation":"📌 GIVEN DATA:\nP(Both Red) = (5/8) × (4/7) = 20/56 = 5/14."},
+  {"id":"q_prob_03","topic":"aptitude","subtopic":"probability","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A card is drawn from a well-shuffled deck of 52 cards. What is the probability of getting a queen or a heart?","options":["4/13","16/52","1/4","3/13"],"correctAnswer":"4/13","explanation":"📌 GIVEN DATA:\nQueens = 4, Hearts = 13, Queen of Hearts = 1. Total = 4 + 13 - 1 = 16. P = 16/52 = 4/13."},
+  {"id":"q_prob_04","topic":"aptitude","subtopic":"probability","difficulty":"easy","orientation":"Conceptual","question":"What is the probability of getting at least one head when three unbiased coins are tossed?","options":["7/8","3/8","1/2","5/8"],"correctAnswer":"7/8","explanation":"📌 GIVEN DATA:\nTotal outcomes = 2³ = 8. Only outcome with NO heads is TTT (1 outcome). P(At least 1 head) = 1 - 1/8 = 7/8."},
+  {"id":"q_prob_05","topic":"aptitude","subtopic":"probability","difficulty":"medium","orientation":"Formula & Application","question":"A box contains 10 light bulbs, out of which 3 are defective. If 2 bulbs are chosen at random, what is the probability that neither is defective?","options":["7/15","7/30","21/45","1/2"],"correctAnswer":"7/15","explanation":"📌 GIVEN DATA:\nNon-defective = 7. P(Neither) = 7C2 / 10C2 = 21 / 45 = 7/15."},
+  {"id":"q_prob_06","topic":"aptitude","subtopic":"probability","difficulty":"medium","orientation":"Shortcut Trick","question":"What is the probability that a leap year chosen at random will contain 53 Sundays?","options":["2/7","1/7","3/7","53/366"],"correctAnswer":"2/7","explanation":"📌 GIVEN DATA:\nLeap year has 366 days = 52 weeks + 2 extra days. Extra days can be (Sat,Sun) or (Sun,Mon). P = 2/7."},
+  {"id":"q_prob_07","topic":"aptitude","subtopic":"probability","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"In a class, 30% students play cricket, 20% play football, and 10% play both. A student is selected at random. What is the probability that he plays cricket or football?","options":["0.40","0.50","0.30","0.60"],"correctAnswer":"0.40","explanation":"📌 GIVEN DATA:\nP(C ∪ F) = P(C) + P(F) - P(C ∩ F) = 0.30 + 0.20 - 0.10 = 0.40."},
+  {"id":"q_prob_08","topic":"aptitude","subtopic":"probability","difficulty":"easy","orientation":"Conceptual","question":"A single die is rolled. What is the probability of getting a prime number?","options":["1/2","1/3","2/3","1/6"],"correctAnswer":"1/2","explanation":"📌 GIVEN DATA:\nPrime numbers on a die: 2, 3, 5 (3 numbers). P = 3/6 = 1/2."},
+  {"id":"q_prob_09","topic":"aptitude","subtopic":"probability","difficulty":"medium","orientation":"Formula & Application","question":"If two events A and B are independent such that P(A) = 0.4 and P(B) = 0.5, find P(A ∩ B).","options":["0.20","0.10","0.90","0.25"],"correctAnswer":"0.20","explanation":"📌 GIVEN DATA:\nFor independent events, P(A ∩ B) = P(A) × P(B) = 0.4 × 0.5 = 0.20."},
+  {"id":"q_prob_10","topic":"aptitude","subtopic":"probability","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A speak truth in 75% cases and B in 80% cases. In what percentage of cases are they likely to contradict each other in stating the same fact?","options":["35%","30%","25%","40%"],"correctAnswer":"35%","explanation":"📌 GIVEN DATA:\nP(A) = 0.75, P(A') = 0.25. P(B) = 0.80, P(B') = 0.20.\nContradict = P(A)P(B') + P(A')P(B) = (0.75×0.20) + (0.25×0.80) = 0.15 + 0.20 = 0.35 = 35%."},
+
+  {"id":"q_syl_01","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"easy","orientation":"Conceptual","question":"Statements:\n1. All computers are machines.\n2. All machines are electronic devices.\n\nConclusions:\nI. All computers are electronic devices.\nII. Some electronic devices are computers.","options":["Only Conclusion I follows","Only Conclusion II follows","Both Conclusion I and II follow","Neither Conclusion I nor II follows"],"correctAnswer":"Both Conclusion I and II follow","explanation":"📌 GIVEN DATA:\nNested Venn circles: Computers ⊂ Machines ⊂ Electronic Devices => Both conclusions hold true."},
+  {"id":"q_syl_02","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"medium","orientation":"GATE / Placement PYQ","question":"Statements:\n1. Some engineers are coders.\n2. No coder is a lazy person.\n\nConclusions:\nI. No engineer is a lazy person.\nII. Some engineers are not lazy persons.","options":["Only Conclusion I follows","Only Conclusion II follows","Both follow","Neither follows"],"correctAnswer":"Only Conclusion II follows","explanation":"📌 GIVEN DATA:\nCoder-engineers cannot be lazy. Conclusion II is definitely true."},
+  {"id":"q_syl_03","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Statements:\n1. All cats are dogs.\n2. Some dogs are birds.\n\nConclusions:\nI. Some cats are birds.\nII. No cat is a bird.","options":["Either Conclusion I or II follows","Only Conclusion I follows","Neither follows","Both follow"],"correctAnswer":"Either Conclusion I or II follows","explanation":"📌 GIVEN DATA:\nComplementary pair: 'Some cats are birds' and 'No cat is a bird' share subject/predicate => Either-Or condition applies."},
+  {"id":"q_syl_04","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"easy","orientation":"Conceptual","question":"Statements:\n1. Some books are pens.\n2. Some pens are pencils.\n\nConclusions:\nI. Some books are pencils.\nII. No book is pencil.","options":["Either I or II follows","Neither follows","Only I follows","Both follow"],"correctAnswer":"Either I or II follows","explanation":"📌 GIVEN DATA:\nTwo 'Some' statements form no definite relation between books and pencils, creating an Either-Or complementary pair."},
+  {"id":"q_syl_05","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"medium","orientation":"Formula & Application","question":"Statements:\n1. All apples are fruits.\n2. No fruit is a vegetable.\n\nConclusions:\nI. No apple is a vegetable.\nII. Some fruits are apples.","options":["Both I and II follow","Only I follows","Only II follows","Neither follows"],"correctAnswer":"Both I and II follow","explanation":"📌 GIVEN DATA:\nApples inside Fruits, Fruits separate from Vegetables => Both conclusions are 100% valid."},
+  {"id":"q_syl_06","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"medium","orientation":"Shortcut Trick","question":"Statements:\n1. All leaders are speakers.\n2. All speakers are influencers.\n\nConclusions:\nI. All leaders are influencers.\nII. Some influencers are leaders.","options":["Both follow","Only I follows","Only II follows","Neither follows"],"correctAnswer":"Both follow","explanation":"📌 GIVEN DATA:\nAll A are B + All B are C => All A are C & Some C are A."},
+  {"id":"q_syl_07","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Statements:\n1. No plastic is wood.\n2. All wood is metal.\n\nConclusions:\nI. Some metals are wood.\nII. Some metals are not plastic.","options":["Both I and II follow","Only I follows","Only II follows","Neither follows"],"correctAnswer":"Both I and II follow","explanation":"📌 GIVEN DATA:\nWood is inside metal. Metal portion containing wood cannot be plastic => Both conclusions follow."},
+  {"id":"q_syl_08","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"easy","orientation":"Conceptual","question":"Statements:\n1. Some paper is wood.\n2. All wood is trees.\n\nConclusions:\nI. Some paper is trees.\nII. All trees are paper.","options":["Only Conclusion I follows","Only II follows","Both follow","Neither follows"],"correctAnswer":"Only Conclusion I follows","explanation":"📌 GIVEN DATA:\nPaper overlaps wood, wood inside trees => Paper must overlap trees. Conclusion I follows."},
+  {"id":"q_syl_09","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"medium","orientation":"Formula & Application","question":"Statements:\n1. All cars are vehicles.\n2. No vehicle is a boat.\n\nConclusions:\nI. No car is a boat.\nII. Some vehicles are cars.","options":["Both follow","Only I follows","Only II follows","Neither follows"],"correctAnswer":"Both follow","explanation":"📌 GIVEN DATA:\nUniversal negative applied to inner set => Both conclusions follow."},
+  {"id":"q_syl_10","topic":"logical-reasoning","subtopic":"syllogisms","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Statements:\n1. Some A are B.\n2. Some B are C.\n3. All C are D.\n\nConclusions:\nI. Some B are D.\nII. Some A are D.","options":["Only Conclusion I follows","Both follow","Only II follows","Neither follows"],"correctAnswer":"Only Conclusion I follows","explanation":"📌 GIVEN DATA:\nSince All C are D and Some B are C, it is guaranteed that Some B are D. A and D relation is unstated."},
+
+  {"id":"q_br_01","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"easy","orientation":"Conceptual","question":"Pointing to a photograph, a man said: 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?","options":["Sister","Mother","Aunt","Daughter"],"correctAnswer":"Sister","explanation":"📌 GIVEN DATA:\nGrandfather's only son = Father. Father's daughter = Sister."},
+  {"id":"q_br_02","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"medium","orientation":"Formula & Application","question":"A is B's brother. C is A's mother. D is C's father. E is B's son. How is D related to A?","options":["Grandfather","Father","Uncle","Brother"],"correctAnswer":"Grandfather","explanation":"📌 GIVEN DATA:\nA is child of C. C is daughter of D => D is Grandfather of A."},
+  {"id":"q_br_03","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"If P + Q means P is the mother of Q; P - Q means P is the brother of Q; P % Q means P is the father of Q. Which of the following shows that M is the maternal uncle of N?","options":["M - R + N","M + R - N","M % R - N","M - R % N"],"correctAnswer":"M - R + N","explanation":"📌 GIVEN DATA:\nM - R = M is brother of R. R + N = R is mother of N => M is brother of N's mother = Maternal Uncle."},
+  {"id":"q_br_04","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"easy","orientation":"Conceptual","question":"Introducing a girl, a boy said: 'She is the daughter of the mother of my daughter.' How is the girl related to the boy?","options":["Daughter","Sister","Wife","Niece"],"correctAnswer":"Daughter","explanation":"📌 GIVEN DATA:\n'Mother of my daughter' = Wife. 'Daughter of wife' = Daughter."},
+  {"id":"q_br_05","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"medium","orientation":"Formula & Application","question":"Showing a man, a woman said: 'His brother's father is the only son of my grandfather.' How is the woman related to the man?","options":["Sister","Mother","Aunt","Daughter"],"correctAnswer":"Sister","explanation":"📌 GIVEN DATA:\n'His brother's father' = Man's Father. 'Only son of my grandfather' = Woman's Father => Sister."},
+  {"id":"q_br_06","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"medium","orientation":"Shortcut Trick","question":"A's father is B's son-in-law. C is A's sister and daughter of V. How is V related to B?","options":["Daughter","Daughter-in-law","Sister","Mother"],"correctAnswer":"Daughter","explanation":"📌 GIVEN DATA:\nV is A's mother. A's father is B's son-in-law => V is B's daughter."},
+  {"id":"q_br_07","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"A family has a man, his wife, their 4 sons and their wives. Every son has 3 sons and 1 daughter. Find the total number of male members in the family.","options":["17","15","19","13"],"correctAnswer":"17","explanation":"📌 GIVEN DATA:\nMan (1) + 4 Sons + (4 × 3 grandsons) = 1 + 4 + 12 = 17 males."},
+  {"id":"q_br_08","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"easy","orientation":"Conceptual","question":"Ravi is the son of Aman's father's sister. How is Ravi related to Aman?","options":["Cousin","Brother","Uncle","Nephew"],"correctAnswer":"Cousin","explanation":"📌 GIVEN DATA:\nAman's father's sister = Aunt. Aunt's son = Cousin."},
+  {"id":"q_br_09","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"medium","orientation":"Formula & Application","question":"B is the brother of A whose mother is C. D is the father of C. How is B related to D?","options":["Grandson","Son","Grandfather","Brother"],"correctAnswer":"Grandson","explanation":"📌 GIVEN DATA:\nB is child of C. C is daughter of D => B is Grandson of D."},
+  {"id":"q_br_10","topic":"logical-reasoning","subtopic":"blood-relations","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Examine the statement: 'P × Q means P is sister of Q; P + Q means P is father of Q.' Which expression means S is aunt of T?","options":["S × M + T","S + M × T","S × T + M","M + S × T"],"correctAnswer":"S × M + T","explanation":"📌 GIVEN DATA:\nS × M = S is sister of M. M + T = M is father of T => S is sister of T's father = Aunt."},
+
+  {"id":"q_di_01","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"medium","orientation":"GATE / Placement PYQ","question":"Company revenue over 4 quarters: Q1 = $20M, Q2 = $25M, Q3 = $30M, Q4 = $40M. What is the percentage growth in revenue from Q1 to Q4?","options":["100%","50%","75%","200%"],"correctAnswer":"100%","explanation":"📌 GIVEN DATA:\nQ1 = 20M, Q4 = 40M => Increase = 20M. % Growth = (20 / 20) × 100% = 100%."},
+  {"id":"q_di_02","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"easy","orientation":"Conceptual","question":"A bar graph shows sales of 5 branches: B1=80, B2=75, B3=95, B4=85, B5=65. What is the average sales per branch?","options":["80","85","75","90"],"correctAnswer":"80","explanation":"📌 GIVEN DATA:\nTotal = 80 + 75 + 95 + 85 + 65 = 400. Average = 400 / 5 = 80."},
+  {"id":"q_di_03","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"medium","orientation":"Formula & Application","question":"In a pie chart, if the central angle representing expenses on food is 108°, what percentage of total expenditure is spent on food?","options":["30%","25%","35%","28%"],"correctAnswer":"30%","explanation":"📌 GIVEN DATA:\nTotal Circle = 360°. Percentage = (108 / 360) × 100% = 30%."},
+  {"id":"q_di_04","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Table data of student passes: School A=120/150, School B=180/200. What is the ratio of pass percentages of School A and School B?","options":["8:9","9:8","4:5","5:6"],"correctAnswer":"8:9","explanation":"📌 GIVEN DATA:\nSchool A pass % = 80%. School B pass % = 90%. Ratio = 80:90 = 8:9."},
+  {"id":"q_di_05","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"easy","orientation":"Conceptual","question":"Line graph shows production: Year 1 = 1000 units, Year 2 = 1250 units. Find the percentage increase.","options":["25%","20%","30%","15%"],"correctAnswer":"25%","explanation":"📌 GIVEN DATA:\nIncrease = 250 units. % Increase = (250 / 1000) × 100% = 25%."},
+  {"id":"q_di_06","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"medium","orientation":"Shortcut Trick","question":"Ratio of boys to girls in 5 classes: C1=3:2 (50 students), C2=4:1 (50 students). Total boys in both classes combined?","options":["70","60","65","75"],"correctAnswer":"70","explanation":"📌 GIVEN DATA:\nC1 boys = (3/5)×50 = 30. C2 boys = (4/5)×50 = 40. Total = 30 + 40 = 70."},
+  {"id":"q_di_07","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"If total budget is $3,600,000 and education receives 15% share, how much budget is allocated to education?","options":["$540,000","$500,000","$600,000","$480,000"],"correctAnswer":"$540,000","explanation":"📌 GIVEN DATA:\nAllocation = 0.15 × 3,600,000 = $540,000."},
+  {"id":"q_di_08","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"easy","orientation":"Conceptual","question":"In a table, Company X profit for 3 years: $10M, $15M, $20M. Find average annual profit.","options":["$15M","$12M","$18M","$16M"],"correctAnswer":"$15M","explanation":"📌 GIVEN DATA:\nAverage = (10 + 15 + 20) / 3 = $15M."},
+  {"id":"q_di_09","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"medium","orientation":"Formula & Application","question":"What central angle represents 25% in a pie chart?","options":["90°","100°","80°","72°"],"correctAnswer":"90°","explanation":"📌 GIVEN DATA:\nAngle = 0.25 × 360° = 90°."},
+  {"id":"q_di_10","topic":"data-interpretation","subtopic":"data-interpretation","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"In 2020 revenue was $50M and in 2022 revenue was $72M. If revenue grew by r% each year, find r.","options":["20%","15%","25%","18%"],"correctAnswer":"20%","explanation":"📌 GIVEN DATA:\n50 × (1 + r/100)² = 72 => (1 + r/100)² = 1.44 => 1 + r/100 = 1.20 => r = 20%."},
+
+  {"id":"q_rc_01","topic":"verbal","subtopic":"reading-comprehension","difficulty":"medium","orientation":"GATE / Placement PYQ","question":"Passage: 'Artificial Intelligence algorithms learn patterns from historical datasets. However, if the underlying data contains historical societal biases, the machine learning models will inevitably replicate and amplify these biases.'\n\nQuestion: Which of the following is the main inference of the passage?","options":["AI models are inherently flawed and should not be used.","AI predictions are only as unbiased as the data used to train them.","Historical datasets are completely unreliable for technology.","Societal biases cannot be detected by computer algorithms."],"correctAnswer":"AI predictions are only as unbiased as the data used to train them.","explanation":"📌 GIVEN DATA:\nAI output quality and fairness depend directly on training data quality."},
+  {"id":"q_rc_02","topic":"verbal","subtopic":"reading-comprehension","difficulty":"easy","orientation":"Conceptual","question":"Passage: 'Renewable energy sources such as solar and wind power are experiencing exponential growth due to falling costs and supportive climate policies.'\n\nQuestion: What is driving the growth of renewable energy according to the passage?","options":["Falling costs and climate policies","Government subsidies only","Depletion of fossil fuels","Increased nuclear energy adoption"],"correctAnswer":"Falling costs and climate policies","explanation":"📌 GIVEN DATA:\nPassage explicitly states falling costs and supportive climate policies."},
+  {"id":"q_rc_03","topic":"verbal","subtopic":"reading-comprehension","difficulty":"medium","orientation":"Formula & Application","question":"Passage: 'Although remote work offers flexibility, it can lead to feelings of isolation and blur the boundaries between professional and personal life.'\n\nQuestion: The word 'blur' in the passage closest means:","options":["Obscure or confuse","Strengthen","Clarify","Separate"],"correctAnswer":"Obscure or confuse","explanation":"📌 GIVEN DATA:\nContextual meaning of blurring boundaries means obscuring distinctions."},
+  {"id":"q_rc_04","topic":"verbal","subtopic":"reading-comprehension","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Passage: 'Cryptographic security relies on mathematical hardness assumptions. Quantum computing threatens classical RSA encryption by factoring large composite numbers efficiently.'\n\nQuestion: What is the author's primary concern?","options":["RSA encryption will be vulnerable to quantum computing.","Quantum computers are too expensive to build.","Mathematics is no longer useful for cryptography.","Classical computers are faster than quantum computers."],"correctAnswer":"RSA encryption will be vulnerable to quantum computing.","explanation":"📌 GIVEN DATA:\nPassage highlights quantum computing threat to classical RSA encryption."},
+  {"id":"q_rc_05","topic":"verbal","subtopic":"reading-comprehension","difficulty":"easy","orientation":"Conceptual","question":"Passage: 'Regular physical exercise improves cardiovascular health and boosts cognitive function.'\n\nQuestion: Which benefit is mentioned?","options":["Cognitive function boost","Memory loss","Weight gain","Increased stress"],"correctAnswer":"Cognitive function boost","explanation":"📌 GIVEN DATA:\nPassage explicitly lists cognitive function boost."},
+  {"id":"q_rc_06","topic":"verbal","subtopic":"reading-comprehension","difficulty":"medium","orientation":"Shortcut Trick","question":"Passage: 'Unlike traditional classroom settings, online micro-learning modules allow students to learn at their own pace.'\n\nQuestion: What is a key advantage of micro-learning?","options":["Self-paced learning","Mandatory attendance","Higher tuition fees","Fixed schedule"],"correctAnswer":"Self-paced learning","explanation":"📌 GIVEN DATA:\nPassage highlights learning at own pace."},
+  {"id":"q_rc_07","topic":"verbal","subtopic":"reading-comprehension","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Passage: 'Electric vehicle adoption is constrained by battery raw material supply chains and charging infrastructure.'\n\nQuestion: What limits EV adoption?","options":["Supply chains and charging infrastructure","Lack of driver interest","High electricity costs","Engine noise"],"correctAnswer":"Supply chains and charging infrastructure","explanation":"📌 GIVEN DATA:\nPassage explicitly cites supply chains and charging infrastructure."},
+  {"id":"q_rc_08","topic":"verbal","subtopic":"reading-comprehension","difficulty":"easy","orientation":"Conceptual","question":"Passage: 'Water conservation is essential because freshwater represents less than 3% of Earth's total water.'\n\nQuestion: Why is conservation essential?","options":["Freshwater is limited (<3%)","Ocean water is expanding","Rainfall has stopped","Water is expensive"],"correctAnswer":"Freshwater is limited (<3%)","explanation":"📌 GIVEN DATA:\nPassage states freshwater represents less than 3%."},
+  {"id":"q_rc_09","topic":"verbal","subtopic":"reading-comprehension","difficulty":"medium","orientation":"Formula & Application","question":"Passage: 'Automation increases factory throughput while reducing manual labor errors.'\n\nQuestion: What is a benefit of automation?","options":["Increased throughput & fewer errors","Higher labor costs","Slower production","More manual mistakes"],"correctAnswer":"Increased throughput & fewer errors","explanation":"📌 GIVEN DATA:\nThroughput increase and error reduction."},
+  {"id":"q_rc_10","topic":"verbal","subtopic":"reading-comprehension","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Passage: 'Urban urbanization leads to habitat fragmentation, threatening local biodiversity unless green corridors are integrated.'\n\nQuestion: What solution is suggested?","options":["Integrating green corridors","Building more highways","Removing parks","Increasing city size"],"correctAnswer":"Integrating green corridors","explanation":"📌 GIVEN DATA:\nPassage states unless green corridors are integrated."},
+
+  {"id":"q_sc_01","topic":"verbal","subtopic":"sentence-correction","difficulty":"easy","orientation":"Conceptual","question":"Identify the grammatically correct sentence:","options":["Neither of the two candidates have submitted their resume.","Neither of the two candidates has submitted his resume.","Neither of the two candidates have submitted his resume.","Neither of the two candidates has submit their resume."],"correctAnswer":"Neither of the two candidates has submitted his resume.","explanation":"📌 GIVEN DATA:\n'Neither' is singular and requires a singular verb ('has')."},
+  {"id":"q_sc_02","topic":"verbal","subtopic":"sentence-correction","difficulty":"medium","orientation":"Formula & Application","question":"Choose the correct sentence:","options":["Hardly had he entered the room than the lights went off.","Hardly had he entered the room when the lights went off.","Hardly he entered the room when the lights went off.","Hardly had he entered the room then the lights went off."],"correctAnswer":"Hardly had he entered the room when the lights went off.","explanation":"📌 GIVEN DATA:\nCorrelative pair: 'Hardly...when' (never 'than' or 'then')."},
+  {"id":"q_sc_03","topic":"verbal","subtopic":"sentence-correction","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Select the grammatically correct option:","options":["Each student and teacher were present at the event.","Each student and teacher was present at the event.","Each student and teacher have been present at the event.","Each student and teacher are present at the event."],"correctAnswer":"Each student and teacher was present at the event.","explanation":"📌 GIVEN DATA:\nWhen 'Each' precedes subjects connected by 'and', the verb is SINGULAR ('was')."},
+  {"id":"q_sc_04","topic":"verbal","subtopic":"sentence-correction","difficulty":"easy","orientation":"Conceptual","question":"Identify the correct sentence:","options":["She is one of those people who is always punctual.","She is one of those people who are always punctual.","She is one of those people whom is always punctual.","She is one of those people which are always punctual."],"correctAnswer":"She is one of those people who are always punctual.","explanation":"📌 GIVEN DATA:\nRelative clause 'who' refers to plural antecedent 'people' => requires plural verb 'are'."},
+  {"id":"q_sc_05","topic":"verbal","subtopic":"sentence-correction","difficulty":"medium","orientation":"Formula & Application","question":"Which sentence demonstrates proper parallelism?","options":["He likes hiking, swimming, and to ride bicycles.","He likes hiking, swimming, and riding bicycles.","He likes to hike, swimming, and ride bicycles.","He likes hiking, to swim, and riding bicycles."],"correctAnswer":"He likes hiking, swimming, and riding bicycles.","explanation":"📌 GIVEN DATA:\nItems in a list must use identical gerund forms (-ing)."},
+  {"id":"q_sc_06","topic":"verbal","subtopic":"sentence-correction","difficulty":"medium","orientation":"Shortcut Trick","question":"Choose the sentence with correct subject-verb agreement:","options":["The team of researchers has published its findings.","The team of researchers have published its findings.","The team of researchers has published their findings.","The team of researchers are publishing findings."],"correctAnswer":"The team of researchers has published its findings.","explanation":"📌 GIVEN DATA:\nCollective noun 'team' acting as a single unit takes singular verb 'has' and singular pronoun 'its'."},
+  {"id":"q_sc_07","topic":"verbal","subtopic":"sentence-correction","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Select the correct sentence:","options":["Scarcely had the announcement been made than the crowd cheered.","Scarcely had the announcement been made when the crowd cheered.","Scarcely the announcement had been made when the crowd cheered.","Scarcely had the announcement been made then the crowd cheered."],"correctAnswer":"Scarcely had the announcement been made when the crowd cheered.","explanation":"📌 GIVEN DATA:\nCorrelative pair: 'Scarcely...when'."},
+  {"id":"q_sc_08","topic":"verbal","subtopic":"sentence-correction","difficulty":"easy","orientation":"Conceptual","question":"Choose the correct option:","options":["Between you and I, this plan will succeed.","Between you and me, this plan will succeed.","Between you and myself, this plan will succeed.","Between I and you, this plan will succeed."],"correctAnswer":"Between you and me, this plan will succeed.","explanation":"📌 GIVEN DATA:\nPrepositions take objective pronouns ('me', not 'I')."},
+  {"id":"q_sc_09","topic":"verbal","subtopic":"sentence-correction","difficulty":"medium","orientation":"Formula & Application","question":"Choose the correct sentence:","options":["No sooner had the bell rung than the students left.","No sooner had the bell rung when the students left.","No sooner the bell had rung than the students left.","No sooner had the bell rung then the students left."],"correctAnswer":"No sooner had the bell rung than the students left.","explanation":"📌 GIVEN DATA:\nCorrelative pair: 'No sooner...than'."},
+  {"id":"q_sc_10","topic":"verbal","subtopic":"sentence-correction","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Identify the correct sentence:","options":["The manager, along with his assistants, are attending the conference.","The manager, along with his assistants, is attending the conference.","The manager, along with his assistants, have attended the conference.","The manager along with his assistants were attending the conference."],"correctAnswer":"The manager, along with his assistants, is attending the conference.","explanation":"📌 GIVEN DATA:\nParenthetical phrase 'along with...' does not change singular subject 'The manager' => singular verb 'is'."},
+
+  {"id":"q_ns_01","topic":"logical-reasoning","subtopic":"number-series","difficulty":"easy","orientation":"Conceptual","question":"Find the missing number in the series: 2, 6, 12, 20, 30, ?","options":["42","40","36","44"],"correctAnswer":"42","explanation":"📌 GIVEN DATA:\nDifferences: +4, +6, +8, +10 => Next difference is +12.\n30 + 12 = 42."},
+  {"id":"q_ns_02","topic":"logical-reasoning","subtopic":"number-series","difficulty":"medium","orientation":"Formula & Application","question":"What should come in place of the question mark? 3, 7, 16, 35, 74, ?","options":["153","148","150","160"],"correctAnswer":"153","explanation":"📌 GIVEN DATA:\nPattern: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, ×2 + 5.\n74 × 2 + 5 = 148 + 5 = 153."},
+  {"id":"q_ns_03","topic":"logical-reasoning","subtopic":"number-series","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Find the wrong number in the series: 8, 18, 38, 78, 158, 316","options":["316","78","158","38"],"correctAnswer":"316","explanation":"📌 GIVEN DATA:\nPattern: ×2 + 2. 8×2+2=18, 18×2+2=38, 38×2+2=78, 78×2+2=158, 158×2+2=318 (not 316)."},
+  {"id":"q_ns_04","topic":"logical-reasoning","subtopic":"number-series","difficulty":"easy","orientation":"Conceptual","question":"Find the missing term: 1, 4, 9, 16, 25, 36, ?","options":["49","45","54","48"],"correctAnswer":"49","explanation":"📌 GIVEN DATA:\nPattern: 1², 2², 3², 4², 5², 6², 7² = 49."},
+  {"id":"q_ns_05","topic":"logical-reasoning","subtopic":"number-series","difficulty":"medium","orientation":"Formula & Application","question":"Find the next term: 2, 3, 5, 7, 11, 13, ?","options":["17","15","19","16"],"correctAnswer":"17","explanation":"📌 GIVEN DATA:\nSeries of prime numbers => Next prime is 17."},
+  {"id":"q_ns_06","topic":"logical-reasoning","subtopic":"number-series","difficulty":"medium","orientation":"Shortcut Trick","question":"What is the missing term? 4, 9, 25, 49, 121, ?","options":["169","144","196","225"],"correctAnswer":"169","explanation":"📌 GIVEN DATA:\nSquares of prime numbers: 2², 3², 5², 7², 11², 13² = 169."},
+  {"id":"q_ns_07","topic":"logical-reasoning","subtopic":"number-series","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Find the missing term: 6, 13, 28, 59, 122, ?","options":["249","245","250","240"],"correctAnswer":"249","explanation":"📌 GIVEN DATA:\nPattern: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, ×2 + 5.\n122 × 2 + 5 = 244 + 5 = 249."},
+  {"id":"q_ns_08","topic":"logical-reasoning","subtopic":"number-series","difficulty":"easy","orientation":"Conceptual","question":"Complete the series: 5, 10, 20, 40, 80, ?","options":["160","140","150","180"],"correctAnswer":"160","explanation":"📌 GIVEN DATA:\nPattern: Doubling (×2) => 80 × 2 = 160."},
+  {"id":"q_ns_09","topic":"logical-reasoning","subtopic":"number-series","difficulty":"medium","orientation":"Formula & Application","question":"Find the missing number: 10, 100, 200, 310, ?","options":["430","420","400","450"],"correctAnswer":"430","explanation":"📌 GIVEN DATA:\nDifferences: +90, +100, +110 => Next difference is +120. 310 + 120 = 430."},
+  {"id":"q_ns_10","topic":"logical-reasoning","subtopic":"number-series","difficulty":"hard","orientation":"GATE / Placement PYQ","question":"Find the missing term: 2, 12, 36, 80, 150, ?","options":["252","240","260","220"],"correctAnswer":"252","explanation":"📌 GIVEN DATA:\nPattern: n³ + n². 1³+1²=2, 2³+2²=12, 3³+3²=36, 4³+4²=80, 5³+5²=150, 6³+6²=216+36=252."}
 ]

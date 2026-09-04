@@ -41,6 +41,10 @@ export default function QuestionCard({
 
   const getOrientationBadge = (orient) => {
     switch (orient) {
+      case 'IndiaBIX Standard':
+        return 'bg-sky-950/80 text-sky-300 border-sky-500/40';
+      case 'GeeksforGeeks PYQ':
+        return 'bg-emerald-950/80 text-emerald-300 border-emerald-500/40';
       case 'Shortcut Trick':
         return 'bg-amber-950/80 text-amber-300 border-amber-500/40';
       case 'GATE / Placement PYQ':
@@ -48,7 +52,7 @@ export default function QuestionCard({
       case 'Conceptual':
         return 'bg-indigo-950/80 text-indigo-300 border-indigo-500/40';
       case 'Formula & Application':
-        return 'bg-sage-950/80 text-sage-300 border-sage-500/40';
+        return 'bg-teal-950/80 text-teal-300 border-teal-500/40';
       default:
         return 'bg-slate-800 text-slate-300 border-slate-700';
     }
