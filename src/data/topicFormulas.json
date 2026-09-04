@@ -1,0 +1,211 @@
+{
+  "percentages": {
+    "title": "Percentages - Formulas & Shortcut Rules",
+    "description": "Essential formulas for percentage calculations, base changes, and expenditure rules.",
+    "formulas": [
+      {
+        "name": "Basic Percentage",
+        "equation": "Percentage = (Part / Whole) × 100",
+        "example": "If 40 students out of 50 pass: (40 / 50) × 100 = 80%"
+      },
+      {
+        "name": "Percentage Increase / Decrease",
+        "equation": "% Change = [(Final Value - Initial Value) / Initial Value] × 100",
+        "example": "Price increases from $80 to $100: [(100 - 80) / 80] × 100 = 25% increase"
+      },
+      {
+        "name": "Price Increase vs Consumption Reduction",
+        "equation": "Reduction % = [ r / (100 + r) ] × 100%",
+        "example": "Price rises by 25%: [25 / (100 + 25)] × 100% = 20% consumption reduction required"
+      },
+      {
+        "name": "Successive Percentage Change",
+        "equation": "Net % Change = A + B + (A × B / 100)",
+        "example": "+10% followed by +20%: 10 + 20 + (10 × 20 / 100) = 32% net increase"
+      }
+    ],
+    "shortcuts": [
+      "20% = 1/5 | 25% = 1/4 | 33.33% = 1/3 | 50% = 1/2 | 16.66% = 1/6 | 12.5% = 1/8 | 10% = 1/10",
+      "Base Shift Rule: If A is r% more than B, B is [r / (100 + r)] × 100% less than A."
+    ]
+  },
+  "profit-and-loss": {
+    "title": "Profit & Loss - Formulas & Short Tricks",
+    "description": "Formulas for Cost Price (CP), Selling Price (SP), Marked Price (MP), and Discounts.",
+    "formulas": [
+      {
+        "name": "Profit & Loss %",
+        "equation": "Profit % = (Profit / CP) × 100 | Loss % = (Loss / CP) × 100",
+        "example": "CP = $80, SP = $100 => Profit = $20 => Profit % = (20 / 80) × 100 = 25%"
+      },
+      {
+        "name": "Selling Price Formula",
+        "equation": "SP = CP × [ (100 ± Profit/Loss %) / 100 ]",
+        "example": "CP = $500 at 20% profit => SP = 500 × 1.20 = $600"
+      },
+      {
+        "name": "Discount & Marked Price",
+        "equation": "SP = MP × [ (100 - Discount %) / 100 ]",
+        "example": "MP = $1000 with 15% discount => SP = 1000 × 0.85 = $850"
+      },
+      {
+        "name": "Dishonest Dealer Shortcut",
+        "equation": "Gain % = [ Error / (True Value - Error) ] × 100%",
+        "example": "Uses 900g for 1kg (1000g) => Error = 100g => Gain % = (100 / 900) × 100 = 11.11%"
+      }
+    ],
+    "shortcuts": [
+      "When 2 items are sold at same SP, one at x% profit and another at x% loss, overall loss % = (x / 10)² %.",
+      "MP / CP = (100 + Profit %) / (100 - Discount %)"
+    ]
+  },
+  "ratio-and-proportion": {
+    "title": "Ratio & Proportion - Fundamental Rules",
+    "description": "Rules for combining ratios, finding mean proportionals, and partnership shares.",
+    "formulas": [
+      {
+        "name": "Proportion Rule",
+        "equation": "If a:b = c:d, then a × d = b × c (Product of Extremes = Product of Means)",
+        "example": "3:5 = 6:x => 3x = 30 => x = 10"
+      },
+      {
+        "name": "Mean & Third Proportional",
+        "equation": "Mean Proportional of a and b = √(a × b) | Third Proportional of a and b = b² / a",
+        "example": "Mean proportional of 4 and 16 = √(64) = 8"
+      },
+      {
+        "name": "Dividing a Sum",
+        "equation": "Share of A in (A+B) = [ a / (a + b) ] × Total Sum",
+        "example": "Divide $1000 in 2:3 => A's share = (2 / 5) × 1000 = $400"
+      }
+    ],
+    "shortcuts": [
+      "To combine A:B = 2:3 and B:C = 4:5, multiply A:B by 4 and B:C by 3 => A:B:C = 8:12:15."
+    ]
+  },
+  "time-and-work": {
+    "title": "Time & Work - Efficiency & LCM Shortcuts",
+    "description": "Work rates, joint efficiency, and pipes & cisterns calculations.",
+    "formulas": [
+      {
+        "name": "Work Rate Formula",
+        "equation": "Work = Rate × Time => 1 Day Work = 1 / Total Days",
+        "example": "If A completes in 10 days, 1 day work = 1/10"
+      },
+      {
+        "name": "Joint Work Together",
+        "equation": "Combined Time = (A × B) / (A + B)",
+        "example": "A takes 12 days, B takes 6 days => Together = (12 × 6) / (12 + 6) = 72 / 18 = 4 days"
+      },
+      {
+        "name": "Men, Days & Hours Rule",
+        "equation": "(M1 × D1 × H1) / W1 = (M2 × D2 × H2) / W2",
+        "example": "10 men do 1 work in 6 days => How many men do same work in 4 days? (10 × 6) = M2 × 4 => M2 = 15"
+      }
+    ],
+    "shortcuts": [
+      "LCM Method: Set Total Work = LCM(Days). Find daily efficiency units for instant mental calculation."
+    ]
+  },
+  "speed-and-distance": {
+    "title": "Speed, Time & Distance - Core Formulas",
+    "description": "Unit conversions, relative speed, train problems, and average speed.",
+    "formulas": [
+      {
+        "name": "Basic Speed Equation",
+        "equation": "Speed = Distance / Time | Distance = Speed × Time",
+        "example": "Covering 180 km in 3 hours => Speed = 180 / 3 = 60 km/h"
+      },
+      {
+        "name": "Unit Conversion",
+        "equation": "1 km/h = 5 / 18 m/s | 1 m/s = 18 / 5 km/h",
+        "example": "72 km/h = 72 × (5 / 18) = 20 m/s"
+      },
+      {
+        "name": "Average Speed (Equal Distances)",
+        "equation": "Avg Speed = (2 × S1 × S2) / (S1 + S2)",
+        "example": "Going at 40 km/h and returning at 60 km/h => Avg = (2 × 40 × 60) / 100 = 48 km/h"
+      },
+      {
+        "name": "Relative Speed",
+        "equation": "Opposite Directions = S1 + S2 | Same Direction = |S1 - S2|",
+        "example": "Trains at 50 km/h and 30 km/h moving towards each other => Relative Speed = 80 km/h"
+      }
+    ],
+    "shortcuts": [
+      "If speed ratio is A:B for equal distance, time ratio is B:A."
+    ]
+  },
+  "interest": {
+    "title": "Simple & Compound Interest - Quick Formulas",
+    "description": "SI, CI compounding formulas, and difference shortcuts.",
+    "formulas": [
+      {
+        "name": "Simple Interest (SI)",
+        "equation": "SI = (P × R × T) / 100 | Amount A = P + SI",
+        "example": "P = $1000, R = 10%, T = 2 years => SI = (1000 × 10 × 2) / 100 = $200"
+      },
+      {
+        "name": "Compound Interest (CI)",
+        "equation": "Amount A = P × [ 1 + (R / 100) ]^T | CI = A - P",
+        "example": "P = $1000 at 10% CI for 2 yrs => A = 1000 × (1.10)² = $1210 => CI = $210"
+      },
+      {
+        "name": "Difference between CI and SI for 2 Years",
+        "equation": "CI - SI = P × (R / 100)²",
+        "example": "P = $1000, R = 10% => CI - SI = 1000 × (0.10)² = $10"
+      }
+    ],
+    "shortcuts": [
+      "Rule of 72: Money doubles in approximately (72 / R) years at R% compound interest."
+    ]
+  },
+  "syllogisms": {
+    "title": "Syllogisms - Logical Deduction Rules",
+    "description": "Venn diagram representations and standard deduction rules.",
+    "formulas": [
+      {
+        "name": "Universal Affirmative (All A are B)",
+        "equation": "Diagram: A is inside B (A ⊂ B). Valid conversions: Some B are A.",
+        "example": "All cats are mammals => Some mammals are cats."
+      },
+      {
+        "name": "Universal Negative (No A is B)",
+        "equation": "Diagram: Completely separate circles (A ∩ B = ∅). Valid conversion: No B is A.",
+        "example": "No dog is a bird => No bird is a dog."
+      },
+      {
+        "name": "Either-Or Condition",
+        "equation": "1. Both conclusions individual false. 2. One affirmative, one negative. 3. Same subject/predicate.",
+        "example": "Conclusion 1: Some A are B. Conclusion 2: No A is B."
+      }
+    ],
+    "shortcuts": [
+      "A conclusion must hold true in ALL valid Venn diagram representations to be correct."
+    ]
+  },
+  "sentence-correction": {
+    "title": "Verbal Ability - Grammar & Sentence Correction Rules",
+    "description": "Key subject-verb agreement, pronoun, and modifier rules.",
+    "formulas": [
+      {
+        "name": "Subject-Verb Agreement",
+        "equation": "Singular Subject -> Singular Verb ('has', 'is', 'was'). Plural -> Plural Verb ('have', 'are').",
+        "example": "Each of the students HAS (not have) completed the test."
+      },
+      {
+        "name": "Correlative Conjunction Pairs",
+        "equation": "Either...or | Neither...nor | Hardly...when | Scarcely...when | No sooner...than",
+        "example": "Hardly had he arrived WHEN (not than) it started raining."
+      },
+      {
+        "name": "Parallelism Rule",
+        "equation": "Items in a list or comparison must use the same grammatical form.",
+        "example": "He likes swimming, running, and CYCLING (not to cycle)."
+      }
+    ],
+    "shortcuts": [
+      "Words like 'Each', 'Every', 'Neither', 'Either', 'Everyone' are ALWAYS singular."
+    ]
+  }
+}

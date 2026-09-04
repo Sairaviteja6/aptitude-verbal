@@ -1,0 +1,88 @@
+{
+  "percentages": {
+    "title": "Percentages - Concept, Formulas & Short Tricks",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Percentage Increase = [(New - Old) / Old] × 100",
+      "Consumption Reduction = [r / (100 + r)] × 100% when price increases by r%",
+      "Successive Change = A + B + (AB / 100)"
+    ],
+    "keyConcepts": "Understand percentage as a fraction out of 100. Master base-value shifting and multiplier methods (e.g., 25% increase = 1.25x)."
+  },
+  "profit-and-loss": {
+    "title": "Profit & Loss - Complete Concepts & Shortcut Tricks",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Profit % = (Profit / Cost Price) × 100",
+      "Loss % = (Loss / Cost Price) × 100",
+      "Selling Price = Cost Price × [(100 ± Profit/Loss %) / 100]",
+      "Marked Price & Discount: SP = MP × [(100 - Discount %) / 100]"
+    ],
+    "keyConcepts": "Cost Price (CP) is always 100% baseline. Profit or Loss is calculated on CP, whereas Discount is calculated on Marked Price (MP)."
+  },
+  "ratio-and-proportion": {
+    "title": "Ratio & Proportion - Fundamentals & Quick Rules",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Duplicate Ratio of a:b = a²:b²",
+      "Mean Proportional between a and b = √(a × b)",
+      "If a:b = c:d, then a × d = b × c (Product of extremes = Product of means)"
+    ],
+    "keyConcepts": "Use constant multiplier x to represent components as ax, bx. Equal ratios can be combined by finding LCM of common terms."
+  },
+  "time-and-work": {
+    "title": "Time & Work - Efficiency & LCM Method Shortcuts",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Work Done = Rate × Time",
+      "If A takes D1 days and B takes D2 days, Together Time = (D1 × D2) / (D1 + D2)",
+      "Efficiency ∝ 1 / Time"
+    ],
+    "keyConcepts": "Assume Total Work = LCM of given days. Calculate daily efficiency units to quickly solve complex joint-work problems."
+  },
+  "speed-and-distance": {
+    "title": "Speed, Time & Distance - Relative Speed & Train Problems",
+    "channel": "Aptitude Tutorials",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Speed = Distance / Time",
+      "Conversion: 1 km/h = 5/18 m/s, 1 m/s = 18/5 km/h",
+      "Average Speed (equal distance) = (2 × S1 × S2) / (S1 + S2)",
+      "Relative Speed (Opposite Direction) = S1 + S2",
+      "Relative Speed (Same Direction) = |S1 - S2|"
+    ],
+    "keyConcepts": "When two trains cross each other, total distance crossed is the sum of both train lengths. Adjust speed based on direction."
+  },
+  "reading-comprehension": {
+    "title": "Verbal Ability - Reading Comprehension Strategies",
+    "channel": "Verbal Mastery",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "Skim for main idea → Scan for keywords → Infer tone and author intent",
+      "Watch for transition contrast words: However, Nevertheless, Yet, Conversely"
+    ],
+    "keyConcepts": "Identify paragraph structure, distinguish stated facts from author inferences, and eliminate extreme options."
+  },
+  "syllogisms": {
+    "title": "Logical Reasoning - Syllogism Venn Diagram Rules",
+    "channel": "Logical Reasoning Pro",
+    "videoUrl": "https://www.youtube.com/embed/Fb0B_32dTYg",
+    "youtubeLink": "https://youtu.be/Fb0B_32dTYg",
+    "keyFormulas": [
+      "All A are B → A ⊂ B",
+      "Some A are B → A ∩ B ≠ ∅",
+      "No A is B → A ∩ B = ∅"
+    ],
+    "keyConcepts": "Draw minimal overlap Venn diagrams. A conclusion is valid ONLY if it holds true in ALL possible Venn diagram representations."
+  }
+}
